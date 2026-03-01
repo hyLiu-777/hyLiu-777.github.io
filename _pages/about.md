@@ -31,30 +31,30 @@ Ningyi Liao, **Haoyu Liu**, Zulun Zhu, Siqiang Luo, Laks V. S. Lakshmanan.  \\
 **Haoyu Liu**, Ningyi Liao, Siqiang Luo.  \\
 *ICDE 2025.*
 
-[**BIRD: Efficient Approximation of Bidirectional Hidden Personalized PageRank**](https://www.vldb.org/pvldb/vol17/p2255-liu.pdf) \\  
+[**BIRD: Efficient Approximation of Bidirectional Hidden Personalized PageRank**](https://www.vldb.org/pvldb/vol17/p2255-liu.pdf) \\
 **Haoyu Liu**, Siqiang Luo.  
 *PVLDB 2024.*
 
-[**Topology-Monitorable Contrastive Learning on Dynamic Graphs**]() \\  
+[**Topology-Monitorable Contrastive Learning on Dynamic Graphs**]() \\
 Zulun Zhu, Kai Wang, **Haoyu Liu**, Jintang Li, Siqiang Luo.  
 *KDD 2024.*
 
-[**LEBP – Language Expectation & Binding Policy: A Two-Stream Framework for Embodied Vision-and-Language Interaction Task Learning Agents**]() \\  
+[**LEBP – Language Expectation & Binding Policy: A Two-Stream Framework for Embodied Vision-and-Language Interaction Task Learning Agents**]() \\
 **Haoyu Liu**, Yang Liu, Hongkai He, Hanfang Yang.  
 *IROS 2022 submitted.*
 
-[**Exploring Coarse-grained Pre-guided Attention to Assist Fine-grained Attention Reinforcement Learning Agents**]() \\  
+[**Exploring Coarse-grained Pre-guided Attention to Assist Fine-grained Attention Reinforcement Learning Agents**]() 
 **Haoyu Liu**, Yang Liu, Xingrui Wang, Hanfang Yang.  
 *IJCNN 2022.*
 
-[**Nightlight as a Proxy of Economic Indicators: Fine-grained GDP Inference around Chinese Mainland via Attention-augmented CNN from Daytime Satellite Imagery**]() \\  
+[**Nightlight as a Proxy of Economic Indicators: Fine-grained GDP Inference around Chinese Mainland via Attention-augmented CNN from Daytime Satellite Imagery**]() 
 **Haoyu Liu**, Xianwen He, Yanbing Bai, Xing Liu, Yilin Wu, Yanyun Zhao, Hanfang Yang.  
 *Remote Sensing 2021.*
 
-[**Right Answer at the Right Time: Temporal Retrieval-Augmented Generation via Graph Summarization**] (https://arxiv.org/abs/2510.16715) \\
+[**Right Answer at the Right Time: Temporal Retrieval-Augmented Generation via Graph Summarization**] (https://arxiv.org/abs/2510.16715) 
 Zulun Zhu, **Haoyu Liu**, Mengke He, Siqiang Luo.  
 *arXiv preprint.*
 
-[**Pyramid Pooling Module-based Semi-Siamese Network: A Benchmark Model for Assessing Building Damage from xBD Satellite Imagery Datasets**]() \\  
+[**Pyramid Pooling Module-based Semi-Siamese Network: A Benchmark Model for Assessing Building Damage from xBD Satellite Imagery Datasets**]()   
 Yanbing Bai, Junjie Hu, Jinhua Su, Xing Liu, **Haoyu Liu**, Xianwen He, Shengwang Meng, Erick Mas, Shunichi Koshimura.  
 *Remote Sensing 2020.*
