@@ -43,18 +43,18 @@ Zulun Zhu, Kai Wang, **Haoyu Liu**, Jintang Li, Siqiang Luo.
 **Haoyu Liu**, Yang Liu, Hongkai He, Hanfang Yang.  
 *IROS 2022 submitted.*
 
-[**Exploring Coarse-grained Pre-guided Attention to Assist Fine-grained Attention Reinforcement Learning Agents**]() 
+[**Exploring Coarse-grained Pre-guided Attention to Assist Fine-grained Attention Reinforcement Learning Agents**]() \\
 **Haoyu Liu**, Yang Liu, Xingrui Wang, Hanfang Yang.  
 *IJCNN 2022.*
 
-[**Nightlight as a Proxy of Economic Indicators: Fine-grained GDP Inference around Chinese Mainland via Attention-augmented CNN from Daytime Satellite Imagery**]() 
+[**Nightlight as a Proxy of Economic Indicators: Fine-grained GDP Inference around Chinese Mainland via Attention-augmented CNN from Daytime Satellite Imagery**]() \\
 **Haoyu Liu**, Xianwen He, Yanbing Bai, Xing Liu, Yilin Wu, Yanyun Zhao, Hanfang Yang.  
 *Remote Sensing 2021.*
 
-[**Right Answer at the Right Time: Temporal Retrieval-Augmented Generation via Graph Summarization**] (https://arxiv.org/abs/2510.16715) 
+[**Right Answer at the Right Time: Temporal Retrieval-Augmented Generation via Graph Summarization**] (https://arxiv.org/abs/2510.16715) \\
 Zulun Zhu, **Haoyu Liu**, Mengke He, Siqiang Luo.  
 *arXiv preprint.*
 
-[**Pyramid Pooling Module-based Semi-Siamese Network: A Benchmark Model for Assessing Building Damage from xBD Satellite Imagery Datasets**]()   
+[**Pyramid Pooling Module-based Semi-Siamese Network: A Benchmark Model for Assessing Building Damage from xBD Satellite Imagery Datasets**]() \\
 Yanbing Bai, Junjie Hu, Jinhua Su, Xing Liu, **Haoyu Liu**, Xianwen He, Shengwang Meng, Erick Mas, Shunichi Koshimura.  
 *Remote Sensing 2020.*
