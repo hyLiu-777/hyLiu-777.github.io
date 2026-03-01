@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "avatar.png"
   name             : "Haoyu Liu (刘浩宇)"
-  pronouns         : "he/him"
+  pronouns         : # "he/him"
   bio              : "Fourth-Year Ph.D Student at NTU"
   location         : "Singapore"
   employer         : "Nanyang Technological University"
