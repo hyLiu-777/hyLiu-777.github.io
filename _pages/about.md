@@ -10,7 +10,7 @@ I'm Haoyu Liu, currently a Fourth-year Ph.D candidate at the [College of Computi
 
 Before joining NTU, I received my B.Sc. degree in Statistics from [Renmin University of China](http://stat.ruc.edu.cn/), where I conducted research with [Prof. Hanfang Yang] and [Prof. Yanbing Bai] at School of Statistics. I also interned at AI lab of [Samsung Research China - Beijing](https://research.samsung.com/src-b) under [Dr. Yang Liu](https://scholar.google.com/citations?hl=en&user=EpG5ODwAAAAJ&view_op=list_works&sortby=pubdate).
 
-
+\\\\\\
 
 Publication
 ===
@@ -51,7 +51,7 @@ Zulun Zhu, Kai Wang, **Haoyu Liu**, Jintang Li, Siqiang Luo.
 **Haoyu Liu**, Xianwen He, Yanbing Bai, Xing Liu, Yilin Wu, Yanyun Zhao, Hanfang Yang.  
 *Remote Sensing 2021.*
 
-[**Right Answer at the Right Time: Temporal Retrieval-Augmented Generation via Graph Summarization**] (https://arxiv.org/abs/2510.16715) \\
+[**Right Answer at the Right Time: Temporal Retrieval-Augmented Generation via Graph Summarization**](https://arxiv.org/abs/2510.16715) \\
 Zulun Zhu, **Haoyu Liu**, Mengke He, Siqiang Luo.  
 *arXiv preprint.*
 
