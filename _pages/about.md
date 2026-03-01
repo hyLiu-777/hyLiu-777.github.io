@@ -13,7 +13,7 @@ Before joining NTU, I received my B.Sc. degree in Statistics from [Renmin Univer
 
 
 Publication
----
+===
 
 [**When Deepfake Detection Meets Graph Neural Network: A Unified and Lightweight Learning Framework**](https://arxiv.org/pdf/2508.05526) \\
 **Haoyu Liu\***, Chaoyu Gong\*, Mengke He, Jiate Li, Kai Han, Siqiang Luo. **(\*: Equal Contribution)** \\
