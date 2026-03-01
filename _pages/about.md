@@ -14,7 +14,7 @@ Publication
 ======
 
 **When Deepfake Detection Meets Graph Neural Network: A Unified and Lightweight Learning Framework**.  
-**Haoyu Liu**, Chaoyu Gong, Mengke He, Jiate Li, Kai Han, Siqiang Luo.  
+** Haoyu Liu* **, Chaoyu Gong*, Mengke He, Jiate Li, Kai Han, Siqiang Luo. (*: Equal Contribution)
 *KDD 2026.*
 
 **Near-Optimality for Single-Source Personalized PageRank**.  
