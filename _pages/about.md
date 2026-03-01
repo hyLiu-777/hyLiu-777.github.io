@@ -17,9 +17,9 @@ Publication
 ** Haoyu Liu* **, Chaoyu Gong*, Mengke He, Jiate Li, Kai Han, Siqiang Luo. (*: Equal Contribution)
 *KDD 2026.*
 
-**Near-Optimality for Single-Source Personalized PageRank**.  
+[**Near-Optimality for Single-Source Personalized PageRank**.](https://arxiv.org/abs/2507.14462)
 Xinpeng Jiang, **Haoyu Liu**, Siqiang Luo, Xiaokui Xiao.  
-*PODS 2026.* [Link](https://arxiv.org/abs/2507.14462)
+*PODS 2026.*
 
 **A Comprehensive Benchmark on Spectral GNNs: The Impact on Efficiency, Memory, and Effectiveness**.  
 Ningyi Liao, **Haoyu Liu**, Zulun Zhu, Siqiang Luo, Laks V. S. Lakshmanan.  
