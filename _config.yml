@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Haoyu Liu - 刘浩宇"
+title                    : "Haoyu Liu"
 title_separator          : "-"
 name                     : &name "Haoyu Liu"
 description              : &description "Fourth-Year Ph.D Student at NTU"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -23,14 +23,14 @@ repository               : "https://github.com/hyLiu-777/hyLiu-777.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  avatar           : "avatar.png"
+  name             : "Haoyu Liu (刘浩宇)"
+  pronouns         : "he/him"
+  bio              : "Fourth-Year Ph.D Student at NTU"
+  location         : "Singapore"
+  employer         : "Nanyang Technological University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "haoyu.liu@ntu.edu.sg" 
 
   # Academic websites
   academia         : # URL
