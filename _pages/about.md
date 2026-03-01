@@ -10,6 +10,8 @@ I'm Haoyu Liu, currently a Fourth-year Ph.D candidate at the [College of Computi
 
 Before joining NTU, I received my B.Sc. degree in Statistics from [Renmin University of China](http://stat.ruc.edu.cn/), where I conducted research with [Prof. Hanfang Yang] and [Prof. Yanbing Bai] at School of Statistics. I also interned at AI lab of [Samsung Research China - Beijing](https://research.samsung.com/src-b) under [Dr. Yang Liu](https://scholar.google.com/citations?hl=en&user=EpG5ODwAAAAJ&view_op=list_works&sortby=pubdate).
 
+
+
 Publication
 ======
 
@@ -17,8 +19,8 @@ Publication
 **Haoyu Liu\***, Chaoyu Gong\*, Mengke He, Jiate Li, Kai Han, Siqiang Luo. **(\*: Equal Contribution)**
 *KDD 2026.*
 
-[**Near-Optimality for Single-Source Personalized PageRank**](https://arxiv.org/abs/2507.14462).
-Xinpeng Jiang†, **Haoyu Liu**†, Siqiang Luo†, Xiaokui Xiao†.  **(†: Alphabetical Order.)**
+[**Near-Optimality for Single-Source Personalized PageRank**](https://arxiv.org/abs/2507.14462). \\
+Xinpeng Jiang†, **Haoyu Liu**†, Siqiang Luo†, Xiaokui Xiao†.  **(†: Alphabetical Order.)** \\
 *PODS 2026.*
 
 **A Comprehensive Benchmark on Spectral GNNs: The Impact on Efficiency, Memory, and Effectiveness**.  
