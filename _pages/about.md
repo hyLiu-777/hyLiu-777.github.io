@@ -20,7 +20,7 @@ Publication
 *KDD 2026.*
 
 [**Near-Optimality for Single-Source Personalized PageRank**](https://arxiv.org/abs/2507.14462) \\
-Xinpeng Jiang†, **Haoyu Liu†**, Siqiang Luo†, Xiaokui Xiao†.  **(†: Alphabetical Order.)** \\
+Xinpeng Jiang†, **Haoyu Liu†**, Siqiang Luo†, Xiaokui Xiao†.  **(†: Alphabetical Order)** \\
 *PODS 2026.*
 
 [**A Comprehensive Benchmark on Spectral GNNs: The Impact on Efficiency, Memory, and Effectiveness**](https://arxiv.org/pdf/2406.09675) \\
