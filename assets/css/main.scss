@@ -42,9 +42,16 @@
     "vendor/font-awesome/brands"
 ;
 
-body {
+/* ==== FORCE typography override ==== */
+html, body,
+.page__content,
+.sidebar,
+.masthead {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-               Roboto, Helvetica, Arial, sans-serif;
-  font-size: 60px;
-  line-height: 1.75;
+               Roboto, Helvetica, Arial, sans-serif !important;
+}
+
+html, body, .page__content {
+  font-size: 18px !important;
+  line-height: 1.75 !important;
 }
