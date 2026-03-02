@@ -9,7 +9,7 @@ redirect_from:
 
 I'm Haoyu Liu, currently a Fourth-year Ph.D candidate at the [College of Computing and Data Science (CCDS)](https://www.ntu.edu.sg/computing), [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore, supervised by [Prof. Siqiang Luo](https://siqiangluo.com/). My research interest lies in *Scalable Graph Algorithms* and *Graph Neural Networks*, particularly *Personalized PageRank (PPR)* related topics.
 
-Before joining NTU, I received my B.Sc. degree in Statistics from [Renmin University of China](http://stat.ruc.edu.cn/), where I conducted research with [Prof. Hanfang Yang] and [Prof. Yanbing Bai] at School of Statistics. I also interned at AI lab of [Samsung Research China - Beijing](https://research.samsung.com/src-b) under [Dr. Yang Liu](https://scholar.google.com/citations?hl=en&user=EpG5ODwAAAAJ&view_op=list_works&sortby=pubdate).
+Before joining NTU, I received my B.Sc. degree in Statistics from [Renmin University of China](http://stat.ruc.edu.cn/), where I conducted research with [Prof. Hanfang Yang](https://scholar.google.com/citations?hl=en&user=EsSjDdAAAAAJ&view_op=list_works&sortby=pubdate) and [Prof. Yanbing Bai](http://stat.ruc.edu.cn/EN/FacultyStaff/Faculty/Department_of_Data_Science_and_Big_Data_Analytics/1b1c8e8e37ab4716bc3b8c28fe81fb99.htm) at School of Statistics. I also interned at AI lab of [Samsung Research China - Beijing](https://research.samsung.com/src-b) under [Dr. Yang Liu](https://scholar.google.com/citations?hl=en&user=EpG5ODwAAAAJ&view_op=list_works&sortby=pubdate).
 
 
 
