@@ -16,48 +16,48 @@ Before joining NTU, I received my B.Sc. degree in Statistics from [Renmin Univer
 Publication
 ===
 
-- [**When Deepfake Detection Meets Graph Neural Network: A Unified and Lightweight Learning Framework**](https://arxiv.org/pdf/2508.05526) \\
+- [**When Deepfake Detection Meets Graph Neural Network: A Unified and Lightweight Learning Framework**](/publication/2025-deepfake-detection-gnn) \\
 **Haoyu Liu\***, Chaoyu Gong\*, Mengke He, Jiate Li, Kai Han, Siqiang Luo. \\
 **(\*: Equal Contribution)** \\
 *KDD 2026.*
 
-- [**Near-Optimality for Single-Source Personalized PageRank**](https://arxiv.org/abs/2507.14462) \\
+- [**Near-Optimality for Single-Source Personalized PageRank**](/publication/2025-near-optimality-single-source-ppr) \\
 Xinpeng Jiang†, **Haoyu Liu†**, Siqiang Luo†, Xiaokui Xiao†. \\
 **(†: Alphabetical Order)** \\
 *PODS 2026.*
 
-- [**A Comprehensive Benchmark on Spectral GNNs: The Impact on Efficiency, Memory, and Effectiveness**](https://arxiv.org/pdf/2406.09675) \\
+- [**A Comprehensive Benchmark on Spectral GNNs: The Impact on Efficiency, Memory, and Effectiveness**](/publication/2026-spectral-gnn-benchmark) \\
 Ningyi Liao, **Haoyu Liu**, Zulun Zhu, Siqiang Luo, Laks V. S. Lakshmanan.  \\
 *SIGMOD 2026.*
 
-- [**SIGMA: An Efficient Heterophilous Graph Neural Network with Fast Global Aggregation**](https://ieeexplore.ieee.org/abstract/document/11113040)  \\
+- [**SIGMA: An Efficient Heterophilous Graph Neural Network with Fast Global Aggregation**](/publication/2025-sigma-heterophilous-gnn)  \\
 **Haoyu Liu**, Ningyi Liao, Siqiang Luo.  \\
 *ICDE 2025.*
 
-- [**BIRD: Efficient Approximation of Bidirectional Hidden Personalized PageRank**](https://www.vldb.org/pvldb/vol17/p2255-liu.pdf) \\
+- [**BIRD: Efficient Approximation of Bidirectional Hidden Personalized PageRank**](/publication/2024-bird-hidden-ppr) \\
 **Haoyu Liu**, Siqiang Luo.  
 *PVLDB 2024.*
 
-- [**Topology-Monitorable Contrastive Learning on Dynamic Graphs**]() \\
+- [**Topology-Monitorable Contrastive Learning on Dynamic Graphs**](/publication/2024-topology-monitorable-contrastive-learning) \\
 Zulun Zhu, Kai Wang, **Haoyu Liu**, Jintang Li, Siqiang Luo.  
 *KDD 2024.*
 
-- [**LEBP – Language Expectation & Binding Policy: A Two-Stream Framework for Embodied Vision-and-Language Interaction Task Learning Agents**]() \\
+- [**LEBP – Language Expectation & Binding Policy: A Two-Stream Framework for Embodied Vision-and-Language Interaction Task Learning Agents**](/publication/2022-lebp-two-stream) \\
 **Haoyu Liu**, Yang Liu, Hongkai He, Hanfang Yang.  
 *IROS 2022 submitted.*
 
-- [**Exploring Coarse-grained Pre-guided Attention to Assist Fine-grained Attention Reinforcement Learning Agents**]() \\
+- [**Exploring Coarse-grained Pre-guided Attention to Assist Fine-grained Attention Reinforcement Learning Agents**](/publication/2022-pre-guided-attention) \\
 **Haoyu Liu**, Yang Liu, Xingrui Wang, Hanfang Yang.  
 *IJCNN 2022.*
 
-- [**Nightlight as a Proxy of Economic Indicators: Fine-grained GDP Inference around Chinese Mainland via Attention-augmented CNN from Daytime Satellite Imagery**]() \\
+- [**Nightlight as a Proxy of Economic Indicators: Fine-grained GDP Inference around Chinese Mainland via Attention-augmented CNN from Daytime Satellite Imagery**](/publication/2020-nightlight-gdp-inference) \\
 **Haoyu Liu**, Xianwen He, Yanbing Bai, Xing Liu, Yilin Wu, Yanyun Zhao, Hanfang Yang.  
 *Remote Sensing 2021.*
 
-- [**Right Answer at the Right Time: Temporal Retrieval-Augmented Generation via Graph Summarization**](https://arxiv.org/abs/2510.16715) \\
+- [**Right Answer at the Right Time: Temporal Retrieval-Augmented Generation via Graph Summarization**](/publication/2025-temporal-rag-graph-summarization) \\
 Zulun Zhu, **Haoyu Liu**, Mengke He, Siqiang Luo.  
 *arXiv preprint.*
 
-- [**Pyramid Pooling Module-based Semi-Siamese Network: A Benchmark Model for Assessing Building Damage from xBD Satellite Imagery Datasets**]() \\
+- [**Pyramid Pooling Module-based Semi-Siamese Network: A Benchmark Model for Assessing Building Damage from xBD Satellite Imagery Datasets**](/publication/2020-pyramid-pooling-semi-siamese) \\
 Yanbing Bai, Junjie Hu, Jinhua Su, Xing Liu, **Haoyu Liu**, Xianwen He, Shengwang Meng, Erick Mas, Shunichi Koshimura.  
 *Remote Sensing 2020.*
