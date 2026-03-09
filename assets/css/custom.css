@@ -3,22 +3,12 @@ html, body, .page__content, .sidebar, .masthead {
   line-height: 1.75;
 }
 
-.author-role-line {
-  margin-top: 0.25rem;
+.publication-authors {
+  margin-top: 0.2rem;
 }
 
-.author-role-badge {
-  display: inline-block;
-  padding: 0.1rem 0.5rem;
-  border-radius: 999px;
-  background-color: #1f6feb;
-  color: #fff;
-  font-size: 0.78rem;
-  font-weight: 600;
-  margin-right: 0.4rem;
-}
-
-.author-role-note {
-  font-size: 0.85rem;
+.publication-author-note {
+  margin-top: -0.3rem;
+  font-size: 0.88rem;
   color: #4b5563;
 }

@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2020-nightlight-gdp-inference
 date: 2020-01-01
 venue: 'Remote Sensing'
-author_position: 'First Author'
+authors: '**Haoyu Liu**, Xianwen He, Yanbing Bai, Xing Liu, Yilin Wu, Yanyun Zhao, Hanfang Yang'
 paperurl: ''
 citation: 'Haoyu Liu, Xianwen He, Yanbing Bai, Xing Liu, Yilin Wu, Yanyun Zhao, Hanfang Yang. Nightlight as a Proxy of Economic Indicators: Fine-grained GDP Inference around Chinese Mainland via Attention-augmented CNN from Daytime Satellite Imagery. Remote Sensing, 2020.'
 ---
