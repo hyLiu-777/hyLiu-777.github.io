@@ -36,6 +36,14 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.collection == 'publications' and page.venue and page.date %}
+          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% if page.author_position or page.author_marking %}
+            <p class="author-role-line">
+              {% if page.author_position %}<span class="author-role-badge">{{ page.author_position }}</span>{% endif %}
+              {% if page.author_marking %}<span class="author-role-note">{{ page.author_marking }}</span>{% endif %}
+            </p>
+          {% endif %}
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
