@@ -9,7 +9,7 @@ redirect_from:
 
 <style>
   .page__content {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
   }
 
   @media (min-width: 80em) {
