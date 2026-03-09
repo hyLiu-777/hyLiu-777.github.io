@@ -5,17 +5,23 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-<div class="wordwrap"> (†: Alphabetical Order and *: Equal Contribution) </div>
-
 {% include base_path %}
 
+{% if site.author.googlescholar %}
+<p class="wordwrap">
+  You can also find my publications on
+  <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+</p>
+{% endif %}
+
+<p class="wordwrap">
+  <em>† Authors listed in alphabetical order. * Equal contribution.</em>
+</p>
+
 {% assign publications_sorted = site.publications | sort: "date" | reverse %}
-<ul>
-{% for post in publications_sorted %}
-  {% include archive-single-cv.html show_citation=false %}
-{% endfor %}
+
+<ul class="publication-list">
+  {% for post in publications_sorted %}
+    {% include archive-single-cv.html show_citation=false %}
+  {% endfor %}
 </ul>
