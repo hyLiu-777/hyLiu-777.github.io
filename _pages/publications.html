@@ -12,8 +12,9 @@ author_profile: true
 {% include base_path %}
 
 {% assign publications_sorted = site.publications | sort: "date" | reverse %}
+<ul>
 {% for post in publications_sorted %}
-  {% include archive-single.html %}
+  {% include archive-single-cv.html %}
 {% endfor %}
-
+</ul>
 
