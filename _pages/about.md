@@ -25,7 +25,7 @@ redirect_from:
     }
 
     #main .sidebar {
-      width: 6%;
+      width: 26%;
     }
   }
 </style>
