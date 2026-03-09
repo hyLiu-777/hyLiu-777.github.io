@@ -42,6 +42,14 @@
     {% if post.author_note %}
       <p class="publication-author-note">{{ post.author_note }}</p>
     {% endif %}
+    {% if post.venue %}
+      {% assign post_year = post.date | default: "1900-01-01" | date: "%Y" %}
+      {% if post.venue contains post_year or post.venue contains "19" or post.venue contains "20" %}
+        <p class="archive__item-excerpt" itemprop="description"><i>{{ post.venue }}</i></p>
+      {% else %}
+        <p class="archive__item-excerpt" itemprop="description"><i>{{ post.venue }}</i>, {{ post_year }}</p>
+      {% endif %}
+    {% endif %}
     {% assign show_citation = include.show_citation %}
     {% if show_citation == nil %}
       {% assign show_citation = true %}
