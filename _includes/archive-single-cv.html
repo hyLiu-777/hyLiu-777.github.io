@@ -36,19 +36,19 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.authors %}
-      <p class="publication-authors">{{ post.authors | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-    {% endif %}
-    {% if post.author_note %}
-      <p class="publication-author-note">{{ post.author_note }}</p>
-    {% endif %}
+    {% assign authors_line = post.authors | markdownify | remove: "<p>" | remove: "</p>" %}
     {% if post.venue %}
       {% assign post_year = post.date | default: "1900-01-01" | date: "%Y" %}
       {% if post.venue contains post_year or post.venue contains "19" or post.venue contains "20" %}
-        <p class="archive__item-excerpt" itemprop="description"><i>{{ post.venue }}</i></p>
+        <p class="publication-authors">{{ authors_line }}. <i>{{ post.venue }}</i></p>
       {% else %}
-        <p class="archive__item-excerpt" itemprop="description"><i>{{ post.venue }}</i>, {{ post_year }}</p>
+        <p class="publication-authors">{{ authors_line }}. <i>{{ post.venue }}</i>, {{ post_year }}</p>
       {% endif %}
+    {% elsif post.authors %}
+      <p class="publication-authors">{{ authors_line }}</p>
+    {% endif %}
+    {% if post.author_note %}
+      <p class="publication-author-note">{{ post.author_note }}</p>
     {% endif %}
     {% assign show_citation = include.show_citation %}
     {% if show_citation == nil %}
