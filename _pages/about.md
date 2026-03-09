@@ -36,7 +36,7 @@ Before joining NTU, I received my B.Sc. degree in Statistics from [Renmin Univer
 
 
 
-Publication
+Recent Publications
 ===
 
 - [**When Deepfake Detection Meets Graph Neural Network: A Unified and Lightweight Learning Framework**](/publication/2025-deepfake-detection-gnn) \\
@@ -64,23 +64,3 @@ Ningyi Liao, **Haoyu Liu**, Zulun Zhu, Siqiang Luo, Laks V. S. Lakshmanan.  \\
 - [**Topology-Monitorable Contrastive Learning on Dynamic Graphs**](/publication/2024-topology-monitorable-contrastive-learning) \\
 Zulun Zhu, Kai Wang, **Haoyu Liu**, Jintang Li, Siqiang Luo.  
 *KDD 2024.*
-
-- [**LEBP – Language Expectation & Binding Policy: A Two-Stream Framework for Embodied Vision-and-Language Interaction Task Learning Agents**](/publication/2022-lebp-two-stream) \\
-**Haoyu Liu**, Yang Liu, Hongkai He, Hanfang Yang.  
-*IROS 2022 submitted.*
-
-- [**Exploring Coarse-grained Pre-guided Attention to Assist Fine-grained Attention Reinforcement Learning Agents**](/publication/2022-pre-guided-attention) \\
-**Haoyu Liu**, Yang Liu, Xingrui Wang, Hanfang Yang.  
-*IJCNN 2022.*
-
-- [**Nightlight as a Proxy of Economic Indicators: Fine-grained GDP Inference around Chinese Mainland via Attention-augmented CNN from Daytime Satellite Imagery**](/publication/2020-nightlight-gdp-inference) \\
-**Haoyu Liu**, Xianwen He, Yanbing Bai, Xing Liu, Yilin Wu, Yanyun Zhao, Hanfang Yang.  
-*Remote Sensing 2021.*
-
-- [**Right Answer at the Right Time: Temporal Retrieval-Augmented Generation via Graph Summarization**](/publication/2025-temporal-rag-graph-summarization) \\
-Zulun Zhu, **Haoyu Liu**, Mengke He, Siqiang Luo.  
-*arXiv preprint.*
-
-- [**Pyramid Pooling Module-based Semi-Siamese Network: A Benchmark Model for Assessing Building Damage from xBD Satellite Imagery Datasets**](/publication/2020-pyramid-pooling-semi-siamese) \\
-Yanbing Bai, Junjie Hu, Jinhua Su, Xing Liu, **Haoyu Liu**, Xianwen He, Shengwang Meng, Erick Mas, Shunichi Koshimura.  
-*Remote Sensing 2020.*
