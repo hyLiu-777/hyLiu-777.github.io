@@ -1,152 +1,140 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Haoyu Liu",
+    "email": "haoyu.liu@ntu.edu.sg",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://hyliu-777.github.io",
+    "summary": "Ph.D. candidate at NTU focusing on scalable graph algorithms, graph neural networks, and Personalized PageRank.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Singapore",
+      "countryCode": "SG",
       "region": ""
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?hl=zh-CN&user=DI_fmh0AAAAJ&view_op=list_works&sortby=pubdate"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0000-0002-0839-5460"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "hyLiu-777",
+        "url": "https://github.com/hyLiu-777"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "haoyu-liu-9070a932b",
+        "url": "https://www.linkedin.com/in/haoyu-liu-9070a932b/"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "name": "Nanyang Technological University",
+      "position": "Ph.D. Researcher",
+      "startDate": "",
+      "endDate": "Present",
+      "summary": "Research in scalable graph algorithms and graph neural networks.",
+      "highlights": [
+        "Focus on Personalized PageRank (PPR) and efficient graph learning systems"
+      ]
+    },
+    {
+      "name": "Samsung Research China - Beijing",
+      "position": "Research Intern",
+      "startDate": "",
+      "endDate": "",
+      "summary": "AI lab internship under Dr. Yang Liu.",
+      "highlights": []
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
+      "institution": "Nanyang Technological University",
+      "area": "Computer Science",
+      "studyType": "Ph.D.",
       "startDate": "",
-      "endDate": "2018",
+      "endDate": "",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
+      "institution": "Renmin University of China",
+      "area": "Statistics",
+      "studyType": "B.Sc.",
       "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "endDate": "",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Research Areas",
+      "keywords": [
+        "Scalable Graph Algorithms",
+        "Graph Neural Networks",
+        "Personalized PageRank"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "Python",
+        "Jupyter",
+        "Git",
+        "Markdown"
+      ]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "When Deepfake Detection Meets Graph Neural Network: A Unified and Lightweight Learning Framework",
+      "publisher": "KDD",
+      "releaseDate": "2026",
+      "website": "https://arxiv.org/pdf/2508.05526",
+      "summary": "Conference paper on lightweight GNN-based deepfake detection."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Near-Optimality for Single-Source Personalized PageRank",
+      "publisher": "PODS",
+      "releaseDate": "2026",
+      "website": "https://arxiv.org/abs/2507.14462",
+      "summary": "Theoretical and algorithmic advances for single-source PPR."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "A Comprehensive Benchmark on Spectral GNNs: The Impact on Efficiency, Memory, and Effectiveness",
+      "publisher": "SIGMOD",
+      "releaseDate": "2026",
+      "website": "https://arxiv.org/pdf/2406.09675",
+      "summary": "Benchmark study on spectral GNNs and system tradeoffs."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "SIGMA: An Efficient Heterophilous Graph Neural Network with Fast Global Aggregation",
+      "publisher": "ICDE",
+      "releaseDate": "2025",
+      "website": "https://ieeexplore.ieee.org/abstract/document/11113040",
+      "summary": "Efficient heterophilous GNN architecture with global aggregation."
+    },
+    {
+      "name": "BIRD: Efficient Approximation of Bidirectional Hidden Personalized PageRank",
+      "publisher": "PVLDB",
+      "releaseDate": "2024",
+      "website": "https://www.vldb.org/pvldb/vol17/p2255-liu.pdf",
+      "summary": "Efficient approximation algorithms for hidden bidirectional PPR."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }

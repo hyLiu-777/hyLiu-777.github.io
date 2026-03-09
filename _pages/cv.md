@@ -11,35 +11,24 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. Candidate in Computer Science, Nanyang Technological University (NTU), Singapore
+* B.Sc. in Statistics, Renmin University of China
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Ph.D. Researcher, Nanyang Technological University
+  * Research focus: scalable graph algorithms, graph neural networks, and Personalized PageRank (PPR)
+  * Advisor: Prof. Siqiang Luo
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Research Intern, Samsung Research China - Beijing
+  * Research mentorship: Dr. Yang Liu
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Graph Algorithms
+* Graph Neural Networks
+* Personalized PageRank (PPR)
+* Python, Jupyter, Markdown, Git
 
 Publications
 ======
@@ -49,16 +38,26 @@ Publications
   
 Talks
 ======
+{% assign talk_count = site.talks | size %}
+{% if talk_count > 0 %}
   <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
+    {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
+{% else %}
+No talks added yet.
+{% endif %}
   
 Teaching
 ======
+{% assign teaching_count = site.teaching | size %}
+{% if teaching_count > 0 %}
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+{% else %}
+No teaching entries added yet.
+{% endif %}
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Reviewer and collaborator in data management and graph learning communities
