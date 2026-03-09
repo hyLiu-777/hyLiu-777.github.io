@@ -9,7 +9,7 @@ redirect_from:
 
 <style>
   .page__content {
-    font-size: 0.85rem;
+    font-size: 0.65rem;
   }
 
   @media (min-width: 80em) {
@@ -18,14 +18,14 @@ redirect_from:
     }
 
     #main .page {
-      width: 72%;
+      width: 76%;
       float: middle;
       margin-right: 0;
       padding-right: 0;
     }
 
     #main .sidebar {
-      width: 16%;
+      width: 6%;
     }
   }
 </style>
