@@ -37,7 +37,12 @@ layout: default
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.collection == 'publications' and page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% assign page_year = page.date | default: "1900-01-01" | date: "%Y" %}
+          {% if page.venue contains page_year or page.venue contains "19" or page.venue contains "20" %}
+            <p>Published in <i>{{ page.venue }}</i></p>
+          {% else %}
+            <p>Published in <i>{{ page.venue }}</i>, {{ page_year }}</p>
+          {% endif %}
           {% if page.authors %}
             <p class="publication-authors">{{ page.authors | markdownify | remove: "<p>" | remove: "</p>" }}</p>
           {% endif %}
