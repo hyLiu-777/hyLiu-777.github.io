@@ -42,7 +42,10 @@
     {% if post.author_note %}
       <p class="publication-author-note">{{ post.author_note }}</p>
     {% endif %}
-    {% assign show_citation = include.show_citation | default: true %}
+    {% assign show_citation = include.show_citation %}
+    {% if show_citation == nil %}
+      {% assign show_citation = true %}
+    {% endif %}
     {% if show_citation == false or show_citation == 'false' %}
       {% assign show_citation = false %}
     {% else %}
