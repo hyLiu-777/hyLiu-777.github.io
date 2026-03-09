@@ -14,18 +14,18 @@ redirect_from:
 
   @media (min-width: 80em) {
     #main {
-      max-width: 1500px;
+      max-width: 1380px;
     }
 
     #main .page {
-      width: 76%;
+      width: 72%;
       float: right;
       margin-right: 0;
       padding-right: 0;
     }
 
     #main .sidebar {
-      width: 20%;
+      width: 24%;
     }
   }
 </style>
