@@ -42,7 +42,8 @@
     {% if post.author_note %}
       <p class="publication-author-note">{{ post.author_note }}</p>
     {% endif %}
-    {% if post.venue%}
+    {% assign show_citation = include.show_citation | default: true %}
+    {% if post.venue and show_citation %}
       <p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p>
     {% endif %}
     </li>
