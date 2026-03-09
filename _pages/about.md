@@ -11,6 +11,23 @@ redirect_from:
   .page__content {
     font-size: 0.95rem;
   }
+
+  @media (min-width: 80em) {
+    #main {
+      max-width: 1500px;
+    }
+
+    #main .page {
+      width: 76%;
+      float: right;
+      margin-right: 0;
+      padding-right: 0;
+    }
+
+    #main .sidebar {
+      width: 20%;
+    }
+  }
 </style>
 
 I'm Haoyu Liu, currently a Fourth-year Ph.D candidate at the [College of Computing and Data Science (CCDS)](https://www.ntu.edu.sg/computing), [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore, supervised by [Prof. Siqiang Luo](https://siqiangluo.com/). My research interest lies in *Scalable Graph Algorithms* and *Graph Neural Networks*, particularly *Personalized PageRank (PPR)* related topics.
