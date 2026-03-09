@@ -19,7 +19,7 @@ redirect_from:
 
     #main .page {
       width: 72%;
-      float: left;
+      float: middle;
       margin-right: 0;
       padding-right: 0;
     }
