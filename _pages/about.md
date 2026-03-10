@@ -40,20 +40,20 @@ Recent Publications
 
 - [**Near-Optimality for Single-Source Personalized PageRank**](/publication/2025-near-optimality-single-source-ppr) \\
 Xinpeng Jiang†, **Haoyu Liu†**, Siqiang Luo†, Xiaokui Xiao†. *PODS 2026.*\\
-**(†: Alphabetical Order)** \\
+**(†: Alphabetical Order)** 
 
 - [**When Deepfake Detection Meets Graph Neural Network: A Unified and Lightweight Learning Framework**](/publication/2025-deepfake-detection-gnn) \\
 **Haoyu Liu\***, Chaoyu Gong\*, Mengke He, Jiate Li, Kai Han, Siqiang Luo. *KDD 2026.* \\
-**(\*: Equal Contribution)** \\
+**(\*: Equal Contribution)** 
 
 - [**A Comprehensive Benchmark on Spectral GNNs: The Impact on Efficiency, Memory, and Effectiveness**](/publication/2026-spectral-gnn-benchmark) \\
-Ningyi Liao, **Haoyu Liu**, Zulun Zhu, Siqiang Luo, Laks V. S. Lakshmanan. *SIGMOD 2026.* \\
+Ningyi Liao, **Haoyu Liu**, Zulun Zhu, Siqiang Luo, Laks V. S. Lakshmanan. *SIGMOD 2026.* 
 
 - [**SIGMA: An Efficient Heterophilous Graph Neural Network with Fast Global Aggregation**](/publication/2025-sigma-heterophilous-gnn)  \\
-**Haoyu Liu**, Ningyi Liao, Siqiang Luo. *ICDE 2025.* \\
+**Haoyu Liu**, Ningyi Liao, Siqiang Luo. *ICDE 2025.* 
 
 - [**BIRD: Efficient Approximation of Bidirectional Hidden Personalized PageRank**](/publication/2024-bird-hidden-ppr) \\
-**Haoyu Liu**, Siqiang Luo. *PVLDB 2024.* \\
+**Haoyu Liu**, Siqiang Luo. *PVLDB 2024.* 
 
 - [**Topology-Monitorable Contrastive Learning on Dynamic Graphs**](/publication/2024-topology-monitorable-contrastive-learning) \\
-Zulun Zhu, Kai Wang, **Haoyu Liu**, Jintang Li, Siqiang Luo. *KDD 2024.* \\
+Zulun Zhu, Kai Wang, **Haoyu Liu**, Jintang Li, Siqiang Luo. *KDD 2024.* 
