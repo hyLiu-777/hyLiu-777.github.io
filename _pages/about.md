@@ -46,7 +46,7 @@ Recent Publications
 Changan Liu\*, **Haoyu Liu\***, Siqiang Luo, Laks V. S. Lakshmanan. *PVLDB 2026.*
 
 - [**Near-Optimality for Single-Source Personalized PageRank**](/publication/2025-near-optimality-single-source-ppr) \\
-Xinpeng Jiang†, **Haoyu Liu†**, Siqiang Luo†, Xiaokui Xiao†. *PODS 2026.*\\
+**Haoyu Liu†** with Xinpeng Jiang†, Siqiang Luo†, and Xiaokui Xiao†. *PODS 2026.*\\
 **Best Newcomer Research Paper Award, SIGMOD/PODS 2026.**
 
 - [**When Deepfake Detection Meets Graph Neural Network: A Unified and Lightweight Learning Framework**](/publication/2025-deepfake-detection-gnn) \\
