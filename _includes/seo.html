@@ -98,6 +98,40 @@
   </script>
 {% endif %}
 
+{% if page.url == "/" %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": {{ seo_url | append: "/#person" | jsonify }},
+      "name": {{ site.author.name | default: site.name | jsonify }},
+      "alternateName": {{ site.name | jsonify }},
+      "url": {{ seo_url | jsonify }},
+      "image": {{ "/images/" | append: site.author.avatar | prepend: base_path | prepend: site.url | jsonify }},
+      "description": {{ seo_description | jsonify }},
+      "email": {{ site.author.email | prepend: "mailto:" | jsonify }},
+      "jobTitle": "Ph.D. Candidate in Computer Science",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": {{ site.author.employer | jsonify }},
+        "url": "https://www.ntu.edu.sg/"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Renmin University of China",
+        "url": "http://stat.ruc.edu.cn/"
+      },
+      "knowsAbout": [
+        "Scalable Graph Algorithms",
+        "Graph Neural Networks",
+        "Personalized PageRank",
+        "Graph-LLM Integration"
+      ],
+      "sameAs": {{ site.social.links | jsonify }}
+    }
+  </script>
+{% endif %}
+
 {% if site.google_site_verification %}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
 {% endif %}
