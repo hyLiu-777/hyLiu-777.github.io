@@ -1,6 +1,7 @@
 ---
 permalink: /
-title: "About me"
+title: "Haoyu Liu"
+description: "Haoyu Liu is a Ph.D. candidate at Nanyang Technological University working on scalable graph algorithms, graph neural networks, Personalized PageRank, and Graph-LLM integration."
 author_profile: true
 redirect_from: 
   - /about/

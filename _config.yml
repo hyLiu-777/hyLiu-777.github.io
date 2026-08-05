@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Haoyu Liu"
 title_separator          : "-"
 name                     : &name "Haoyu Liu"
-description              : &description "Fourth-Year Ph.D Student at NTU"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Haoyu Liu is a Ph.D. candidate at Nanyang Technological University working on scalable graph algorithms, graph neural networks, Personalized PageRank, and Graph-LLM integration."
 url                      : https://hyliu-777.github.io/ # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -29,7 +29,7 @@ author:
   bio              : "Fourth-Year Ph.D Student at NTU"
   location         : "Singapore"
   employer         : "Nanyang Technological University"
-  uri              : # URL
+  uri              : "https://hyliu-777.github.io"
   email            : "haoyu.liu@ntu.edu.sg" 
 
   # Academic websites
@@ -143,14 +143,19 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "profile.png"
+og_description           : "Personal website of Haoyu Liu, Ph.D. candidate at NTU working on scalable graph algorithms, graph neural networks, Personalized PageRank, and Graph-LLM integration."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person"
+  name                   : "Haoyu Liu"
+  links:
+    - "https://hyliu-777.github.io"
+    - "https://scholar.google.com/citations?hl=zh-CN&user=DI_fmh0AAAAJ&view_op=list_works&sortby=pubdate"
+    - "https://orcid.org/0000-0002-0839-5460"
+    - "https://github.com/hyLiu-777"
+    - "https://www.linkedin.com/in/haoyu-liu-9070a932b/"
 
 
 # Analytics
