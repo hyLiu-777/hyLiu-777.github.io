@@ -20,8 +20,45 @@ author_profile: true
 
 {% assign publications_sorted = site.publications | sort: "date" | reverse %}
 
-<ul class="publication-list">
+<div class="publication-feed">
   {% for post in publications_sorted %}
-    {% include archive-single-cv.html show_citation=false %}
+    {% assign publication_year = post.date | default: "1900-01-01" | date: "%Y" %}
+    {% assign authors_line = post.authors | markdownify | remove: "<p>" | remove: "</p>" %}
+    {% assign paper_label = "Paper" %}
+    {% if post.paperurl contains "arxiv.org/abs/" %}
+      {% assign paper_label = "arXiv" %}
+    {% elsif post.paperurl contains ".pdf" %}
+      {% assign paper_label = "PDF" %}
+    {% endif %}
+
+    <article class="publication-entry">
+      <h3 class="publication-entry__title">
+        <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+      </h3>
+
+      {% if post.authors %}
+        <p class="publication-entry__authors">{{ authors_line }}</p>
+      {% endif %}
+
+      <p class="publication-entry__venue">
+        {% if post.venue contains publication_year or post.venue contains "19" or post.venue contains "20" %}
+          <em>{{ post.venue }}</em>
+        {% else %}
+          <em>{{ post.venue }}</em>, {{ publication_year }}
+        {% endif %}
+      </p>
+
+      {% if post.author_note %}
+        <p class="publication-entry__note">{{ post.author_note }}</p>
+      {% endif %}
+
+      <p class="publication-entry__links">
+        <a href="{{ base_path }}{{ post.url }}">Page</a>
+        {% if post.paperurl %}
+          <span class="publication-entry__divider">|</span>
+          <a href="{{ post.paperurl }}">{{ paper_label }}</a>
+        {% endif %}
+      </p>
+    </article>
   {% endfor %}
-</ul>
+</div>

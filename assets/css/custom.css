@@ -21,3 +21,64 @@ html, body, .page__content, .sidebar, .masthead {
   font-size: 0.88rem;
   color: #4b5563;
 }
+
+.publication-feed {
+  margin-top: 1.5rem;
+}
+
+.publication-entry {
+  margin: 0 0 1.6rem;
+  padding: 0 0 1.2rem;
+  border-bottom: 1px solid #e7e2dc;
+}
+
+.publication-entry__title {
+  margin: 0 0 0.25rem;
+  font-size: 1.02rem;
+  line-height: 1.35;
+}
+
+.publication-entry__title a {
+  text-decoration: none;
+}
+
+.publication-entry__title a:hover {
+  text-decoration: underline;
+}
+
+.publication-entry__authors,
+.publication-entry__venue,
+.publication-entry__note,
+.publication-entry__links {
+  margin: 0.15rem 0;
+}
+
+.publication-entry__authors {
+  color: #2d2a26;
+}
+
+.publication-entry__venue {
+  color: #6a6258;
+}
+
+.publication-entry__note {
+  font-size: 0.92rem;
+  color: #6a6258;
+}
+
+.publication-entry__links {
+  font-size: 0.94rem;
+}
+
+.publication-entry__links a {
+  text-decoration: none;
+}
+
+.publication-entry__links a:hover {
+  text-decoration: underline;
+}
+
+.publication-entry__divider {
+  margin: 0 0.35rem;
+  color: #8a8175;
+}
