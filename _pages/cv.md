@@ -9,6 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+<p>
+  <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Download CV as PDF</a>
+</p>
+
 Education
 ======
 * Ph.D. Candidate in Computer Science, Nanyang Technological University, Singapore
