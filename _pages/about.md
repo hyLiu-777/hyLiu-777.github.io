@@ -31,7 +31,7 @@ redirect_from:
   }
 </style>
 
-I'm Haoyu Liu, a Ph.D. candidate in Computer Science at the [College of Computing and Data Science (CCDS)](https://www.ntu.edu.sg/computing), [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore, advised by [Prof. Siqiang Luo](https://siqiangluo.com/). My research focuses on *scalable graph algorithms* and *graph learning*, spanning Personalized PageRank (PPR) computation, efficient and lightweight Graph Neural Networks, and Graph-LLM integration.
+I am **Haoyu Liu (刘浩宇)**, a Ph.D. candidate in Computer Science at the [College of Computing and Data Science (CCDS)](https://www.ntu.edu.sg/computing), [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore, advised by [Prof. Siqiang Luo](https://siqiangluo.com/). My research focuses on *scalable graph algorithms* and *graph learning*, spanning Personalized PageRank (PPR) computation, efficient and lightweight Graph Neural Networks, and Graph-LLM integration.
 
 My work combines theoretical guarantees with scalable learning systems, with (co-)first-author publications at PODS, PVLDB, KDD, and ICDE. I received the Best Newcomer Research Paper Award at SIGMOD/PODS 2026, and our spectral GNN benchmark received the PREMIA Best Student Paper Award 2025 in Singapore.
 
