@@ -21,13 +21,3 @@ html, body, .page__content, .sidebar, .masthead {
   font-size: 0.88rem;
   color: #4b5563;
 }
-
-.award-highlight {
-  display: inline-block;
-  margin-top: 0.2rem;
-  padding: 0.08rem 0.5rem;
-  border-left: 3px solid #b42318;
-  background: #fff1f0;
-  color: #9f1239;
-  font-weight: 700;
-}

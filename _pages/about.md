@@ -47,14 +47,14 @@ Changan Liu\*, **Haoyu Liu\***, Siqiang Luo, Laks V. S. Lakshmanan. *PVLDB 2026.
 
 - [**Near-Optimality for Single-Source Personalized PageRank**](/publication/2025-near-optimality-single-source-ppr) \\
 **Haoyu Liu†** with Xinpeng Jiang†, Siqiang Luo†, and Xiaokui Xiao†. *PODS 2026.*\\
-<span class="award-highlight">Best Newcomer Research Paper Award, SIGMOD/PODS 2026</span>
+<strong style="display:inline-block;margin-top:0.2rem;padding:0.08rem 0.5rem;border-left:3px solid #b42318;background:#fff1f0;color:#9f1239;">Best Newcomer Research Paper Award, SIGMOD/PODS 2026</strong>
 
 - [**When Deepfake Detection Meets Graph Neural Network: A Unified and Lightweight Learning Framework**](/publication/2025-deepfake-detection-gnn) \\
 **Haoyu Liu\***, Chaoyu Gong\*, Mengke He, Jiate Li, Kai Han, Siqiang Luo. *KDD 2026.*
 
 - [**A Comprehensive Benchmark on Spectral GNNs: The Impact on Efficiency, Memory, and Effectiveness**](/publication/2026-spectral-gnn-benchmark) \\
 Ningyi Liao, **Haoyu Liu**, Zulun Zhu, Siqiang Luo, Laks V. S. Lakshmanan. *SIGMOD 2026.* \\
-<span class="award-highlight">PREMIA Best Student Paper Award 2025 in Singapore</span>
+<strong style="display:inline-block;margin-top:0.2rem;padding:0.08rem 0.5rem;border-left:3px solid #b42318;background:#fff1f0;color:#9f1239;">PREMIA Best Student Paper Award 2025 in Singapore</strong>
 
 - [**SIGMA: An Efficient Heterophilous Graph Neural Network with Fast Global Aggregation**](/publication/2025-sigma-heterophilous-gnn)  \\
 **Haoyu Liu**, Ningyi Liao, Siqiang Luo. *ICDE 2025.* 
