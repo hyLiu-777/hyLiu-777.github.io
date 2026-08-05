@@ -1,0 +1,67 @@
+{% assign publication_year = post.date | default: "1900-01-01" | date: "%Y" %}
+{% assign authors_line = post.authors | markdownify | remove: "<p>" | remove: "</p>" %}
+{% assign preview_kind = "graph" %}
+{% if post.venue contains "Remote Sensing" %}
+  {% assign preview_kind = "satellite" %}
+{% elsif post.venue contains "IJCNN" %}
+  {% assign preview_kind = "agent" %}
+{% elsif post.venue contains "arXiv" %}
+  {% assign preview_kind = "preprint" %}
+{% endif %}
+
+<article class="publication-entry" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="publication-entry__preview publication-entry__preview--{{ preview_kind }}">
+    {% if post.teaser %}
+      <img src="{{ post.teaser | relative_url }}" alt="Preview figure for {{ post.title }}" itemprop="image">
+    {% else %}
+      <span class="publication-preview__label">{{ post.venue | split: " " | first }}</span>
+      <span class="publication-preview__year">{{ publication_year }}</span>
+      <span class="publication-preview__title">{{ post.title | truncate: 42 }}</span>
+      <span class="publication-preview__shape publication-preview__shape--one"></span>
+      <span class="publication-preview__shape publication-preview__shape--two"></span>
+      <span class="publication-preview__shape publication-preview__shape--three"></span>
+      <span class="publication-preview__line publication-preview__line--one"></span>
+      <span class="publication-preview__line publication-preview__line--two"></span>
+    {% endif %}
+  </div>
+
+  <div class="publication-entry__body">
+    <p class="publication-entry__venue" itemprop="isPartOf">
+      <em>{{ post.venue }}</em>{% unless post.venue contains "19" or post.venue contains "20" %} · {{ publication_year }}{% endunless %}
+    </p>
+
+    <h3 class="publication-entry__title" itemprop="name">
+      <a href="{{ base_path }}{{ post.url }}" itemprop="url">{{ post.title }}</a>
+    </h3>
+
+    {% if post.authors %}
+      <p class="publication-entry__authors" itemprop="author">{{ authors_line }}</p>
+    {% endif %}
+
+    {% if post.award %}
+      <p class="publication-entry__award award-highlight">
+        <i class="fa fa-trophy" aria-hidden="true"></i>
+        <span>{{ post.award }}</span>
+      </p>
+    {% endif %}
+
+    <div class="publication-entry__links" aria-label="Links for {{ post.title }}">
+      <a class="publication-link publication-link--primary" href="{{ base_path }}{{ post.url }}"><i class="fa fa-file-text-o" aria-hidden="true"></i> Details</a>
+      {% if post.paperurl contains "arxiv.org/pdf/" %}
+        <a class="publication-link" href="{{ post.paperurl }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> PDF</a>
+        {% assign arxiv_url = post.paperurl | replace: "/pdf/", "/abs/" %}
+        <a class="publication-link" href="{{ arxiv_url }}"><i class="ai ai-arxiv" aria-hidden="true"></i> arXiv</a>
+      {% elsif post.paperurl contains "arxiv.org/abs/" %}
+        <a class="publication-link" href="{{ post.paperurl }}"><i class="ai ai-arxiv" aria-hidden="true"></i> arXiv</a>
+      {% elsif post.paperurl %}
+        <a class="publication-link" href="{{ post.paperurl }}"><i class="fa fa-external-link" aria-hidden="true"></i> Paper</a>
+      {% endif %}
+      {% if post.slidesurl %}
+        <a class="publication-link" href="{{ post.slidesurl }}"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i> Slides</a>
+      {% endif %}
+      {% if post.bibtexurl %}
+        <a class="publication-link" href="{{ post.bibtexurl }}"><i class="fa fa-file-code-o" aria-hidden="true"></i> BibTeX</a>
+      {% endif %}
+    </div>
+  </div>
+</article>

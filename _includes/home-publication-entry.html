@@ -1,0 +1,19 @@
+{% assign home_publication_year = post.date | default: "1900-01-01" | date: "%Y" %}
+{% assign home_authors_line = post.authors | markdownify | remove: "<p>" | remove: "</p>" %}
+
+<article class="home-publication" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <a class="home-publication__thumb" href="{{ base_path }}{{ post.url }}" aria-label="View {{ post.title }}">
+    {% if post.teaser %}
+      <img src="{{ post.teaser | relative_url }}" alt="Preview figure for {{ post.title }}" loading="lazy" itemprop="image">
+    {% endif %}
+  </a>
+  <div class="home-publication__body">
+    <p class="home-publication__meta"><span>{{ post.venue }}</span>{% unless post.venue contains "19" or post.venue contains "20" %}<span>{{ home_publication_year }}</span>{% endunless %}{% if post.award %}<span class="home-publication__award-inline"><i class="fa fa-trophy" aria-hidden="true"></i> {{ post.award }}</span>{% endif %}</p>
+    <h3 itemprop="name"><a href="{{ base_path }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h3>
+    <p class="home-publication__authors" itemprop="author">{{ home_authors_line }}</p>
+    <div class="home-publication__links">
+      <a href="{{ base_path }}{{ post.url }}">Details <span aria-hidden="true">↗</span></a>
+      {% if post.paperurl and post.paperurl != "" %}<a href="{{ post.paperurl }}">Paper <span aria-hidden="true">↗</span></a>{% endif %}
+    </div>
+  </div>
+</article>

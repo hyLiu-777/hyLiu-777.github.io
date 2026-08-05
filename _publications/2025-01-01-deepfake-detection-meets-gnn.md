@@ -3,9 +3,11 @@ title: "When Deepfake Detection Meets Graph Neural Network: A Unified and Lightw
 collection: publications
 category: conferences
 permalink: /publication/2025-deepfake-detection-gnn
-date: 2025-01-01
+date: 2026-01-01
 venue: 'KDD 2026'
+first_author: true
 authors: '**Haoyu Liu**\*, Chaoyu Gong\*, Mengke He, Jiate Li, Kai Han, Siqiang Luo'
+teaser: '/images/publications/2025-deepfake.jpg'
 author_note: ''
 paperurl: 'https://arxiv.org/pdf/2508.05526'
 citation: 'Haoyu Liu, Chaoyu Gong, Mengke He, Jiate Li, Kai Han, Siqiang Luo. When Deepfake Detection Meets Graph Neural Network: A Unified and Lightweight Learning Framework. KDD, 2026.'

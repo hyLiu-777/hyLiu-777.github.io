@@ -1,66 +1,143 @@
 ---
 permalink: /
 title: "Haoyu Liu"
+hide_title: true
 description: "Haoyu Liu is a Ph.D. candidate at Nanyang Technological University working on scalable graph algorithms, graph neural networks, Personalized PageRank, and Graph-LLM integration."
-author_profile: true
-redirect_from: 
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
+{% include base_path %}
+
 <style>
-  .page__content {
-    font-size: 0.85rem;
+  #main .page {
+    width: 100%;
+    float: none;
+    margin: 0;
+    padding: 0;
   }
 
   @media (min-width: 80em) {
     #main {
       max-width: 1380px;
     }
-
-    #main .page {
-      width: 72%;
-      float: right;
-      margin-right: 0;
-      padding-right: 0;
-    }
-
-    #main .sidebar {
-      width: 24%;
-    }
   }
 </style>
 
-I am **Haoyu Liu (刘浩宇)**, a Ph.D. candidate in Computer Science at the [College of Computing and Data Science (CCDS)](https://www.ntu.edu.sg/computing), [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore, advised by [Prof. Siqiang Luo](https://siqiangluo.com/). My research focuses on *scalable graph algorithms* and *graph learning*, spanning Personalized PageRank (PPR) computation, efficient and lightweight Graph Neural Networks, and Graph-LLM integration.
+<div class="home-page">
+  <section class="home-hero" aria-labelledby="home-title">
+    <div class="home-hero__profile">
+      <img src="{{ base_path }}/images/avatar.png" alt="Portrait of Haoyu Liu" fetchpriority="high">
+    </div>
+    <div class="home-hero__main">
+      <p class="home-kicker">Computer Science · Algorithms &amp; Efficiency</p>
+      <h1 id="home-title">Haoyu Liu</h1>
+      <p class="home-hero__lead">Ph.D. candidate in Computer Science at <a href="https://www.ntu.edu.sg/computing">NTU CCDS</a>, working with <a href="https://siqiangluo.com/">Prof. Siqiang Luo</a> in Singapore.</p>
+      <p class="home-hero__copy">I design scalable graph algorithms and efficient learning methods for large, dynamic graphs. My research spans Personalized PageRank, graph kernels, approximation algorithms, and data structures, alongside lightweight and heterophilous Graph Neural Networks and spectral benchmarking. More recently, I have worked on Graph-LLM integration and temporal retrieval, with a consistent focus on reducing computation and memory while preserving theoretical guarantees and practical effectiveness.</p>
+      <div class="home-actions">
+        <a class="home-action home-action--primary" href="{{ base_path }}/publications/">Browse publications <span aria-hidden="true">↗</span></a>
+        <a class="home-action" href="{{ base_path }}/cv/">View CV <span aria-hidden="true">↗</span></a>
+        <a class="home-action" href="mailto:haoyu.liu@ntu.edu.sg">Email me <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
 
-My work combines theoretical guarantees with scalable learning systems, with (co-)first-author publications at PODS, PVLDB, KDD, and ICDE. I received the Best Newcomer Research Paper Award at SIGMOD/PODS 2026, and our spectral GNN benchmark received the PREMIA Best Student Paper Award 2025 in Singapore.
+    <aside class="home-hero__aside" aria-label="Current position">
+      <p class="home-hero__aside-label">Now</p>
+      <p class="home-hero__aside-title">Ph.D. candidate</p>
+      <p class="home-hero__aside-copy">Computer Science<br>NTU CCDS · Singapore</p>
+      <div class="home-hero__aside-rule"></div>
+      <p class="home-hero__aside-label">Research lens</p>
+      <p class="home-hero__aside-stat">Theory → efficiency → impact</p>
+    </aside>
+  </section>
 
-Before joining NTU, I received my B.Sc. degree in Statistics and Big Data from [Renmin University of China](http://stat.ruc.edu.cn/). I also interned at the AI Lab of [Samsung Research China - Beijing](https://research.samsung.com/src-b) under [Dr. Yang Liu](https://scholar.google.com/citations?hl=en&user=EpG5ODwAAAAJ&view_op=list_works&sortby=pubdate), where I worked on embodied AI agents for instruction-following household tasks and placed 3rd in the CVPR 2022 ALFRED Challenge.
+  <section class="home-section home-context" aria-labelledby="context-title">
+    <div class="home-context__column">
+      <p class="home-kicker">01 / Background</p>
+      <h2 id="context-title">From statistics to graph algorithms.</h2>
+      <div class="home-timeline">
+        <div class="home-timeline__item">
+          <span class="home-timeline__year">Now</span>
+          <div><h3>Ph.D. in Computer Science</h3><p><a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, Singapore · advised by <a href="https://siqiangluo.com/">Prof. Siqiang Luo</a>.</p></div>
+        </div>
+        <div class="home-timeline__item">
+          <span class="home-timeline__year">Earlier</span>
+          <div><h3>Research Intern</h3><p>AI Lab, <a href="https://research.samsung.com/src-b">Samsung Research China - Beijing</a>, under <a href="https://scholar.google.com/citations?hl=en&amp;user=EpG5ODwAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Dr. Yang Liu</a>. Worked on embodied AI agents and household instruction following.</p></div>
+        </div>
+        <div class="home-timeline__item">
+          <span class="home-timeline__year">Foundation</span>
+          <div><h3>B.Sc. in Statistics and Big Data</h3><p><a href="http://stat.ruc.edu.cn/">Renmin University of China</a>.</p></div>
+        </div>
+      </div>
+    </div>
 
-Recent Publications
-===
+    <div class="home-context__column home-context__column--award">
+      <p class="home-kicker">02 / Recognition</p>
+      <h2>Research that travels.</h2>
+      <div class="home-award">
+        <span class="home-award__icon"><i class="fa fa-trophy" aria-hidden="true"></i></span>
+        <div><strong>Best Newcomer Research Paper Award</strong><p>SIGMOD/PODS 2026 · for <em>Near-Optimality for Single-Source Personalized PageRank</em></p></div>
+      </div>
+      <div class="home-award">
+        <span class="home-award__icon"><i class="fa fa-trophy" aria-hidden="true"></i></span>
+        <div><strong>PREMIA Best Student Paper Award</strong><p>2025 in Singapore · for the spectral GNN benchmark study</p></div>
+      </div>
+      <div class="home-award home-award--quiet">
+        <span class="home-award__icon"><i class="fa fa-star" aria-hidden="true"></i></span>
+        <div><strong>3rd place, CVPR 2022 ALFRED Challenge</strong><p>For embodied vision-and-language interaction agents.</p></div>
+      </div>
+    </div>
+  </section>
 
-*`*` equal contribution; `†` authors listed in alphabetical order.*
+  <section class="home-section home-publications" aria-labelledby="selected-publications-title">
+    <div class="home-section__heading home-section__heading--row home-publications__heading">
+      <div class="home-publications__heading-copy">
+        <p class="home-kicker">03 / Publications</p>
+        <h2 id="selected-publications-title">Recent work</h2>
+        <p>Selected papers from my publication record.</p>
+      </div>
+      <a class="home-section__link" href="{{ base_path }}/publications/">View all publications <span aria-hidden="true">↗</span></a>
+    </div>
 
-- [**Scalable Graph Kernel Query with Error Guarantees**](/publication/2026-scalable-graph-kernel-query) \\
-Changan Liu\*, **Haoyu Liu\***, Siqiang Luo, Laks V. S. Lakshmanan. *PVLDB 2026.*
+    <p class="home-publications__legend"><strong>†</strong> alphabetical author order <span>·</span> <strong>*</strong> equal contribution</p>
 
-- [**Near-Optimality for Single-Source Personalized PageRank**](/publication/2025-near-optimality-single-source-ppr) \\
-**Haoyu Liu†** with Xinpeng Jiang†, Siqiang Luo†, and Xiaokui Xiao†. *PODS 2026.*\\
-<strong style="display:inline-block;margin-top:0.2rem;padding:0.08rem 0.5rem;border-left:3px solid #b42318;background:#fff1f0;color:#9f1239;">Best Newcomer Research Paper Award, SIGMOD/PODS 2026</strong>
+    {% assign homepage_year_groups = site.publications | group_by_exp: "publication_year", "item.date | date: '%Y'" | sort: "name" | reverse %}
+    {% assign homepage_displayed = 0 %}
+    <div class="home-publication-list">
+      {% for year_group in homepage_year_groups %}
+        {% assign homepage_year_publications = year_group.items | sort: "date" | reverse %}
+        {% assign homepage_lead_publications = homepage_year_publications | where: "first_author", true %}
+        {% assign homepage_coauthor_publications = homepage_year_publications | where: "first_author", false %}
+        {% for post in homepage_lead_publications %}
+          {% if homepage_displayed < 8 %}
+            {% include home-publication-entry.html %}
+            {% assign homepage_displayed = homepage_displayed | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+        {% for post in homepage_coauthor_publications %}
+          {% if homepage_displayed < 8 %}
+            {% include home-publication-entry.html %}
+            {% assign homepage_displayed = homepage_displayed | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </section>
 
-- [**When Deepfake Detection Meets Graph Neural Network: A Unified and Lightweight Learning Framework**](/publication/2025-deepfake-detection-gnn) \\
-**Haoyu Liu\***, Chaoyu Gong\*, Mengke He, Jiate Li, Kai Han, Siqiang Luo. *KDD 2026.*
-
-- [**A Comprehensive Benchmark on Spectral GNNs: The Impact on Efficiency, Memory, and Effectiveness**](/publication/2026-spectral-gnn-benchmark) \\
-Ningyi Liao, **Haoyu Liu**, Zulun Zhu, Siqiang Luo, Laks V. S. Lakshmanan. *SIGMOD 2026.* \\
-<strong style="display:inline-block;margin-top:0.2rem;padding:0.08rem 0.5rem;border-left:3px solid #b42318;background:#fff1f0;color:#9f1239;">PREMIA Best Student Paper Award 2025 in Singapore</strong>
-
-- [**SIGMA: An Efficient Heterophilous Graph Neural Network with Fast Global Aggregation**](/publication/2025-sigma-heterophilous-gnn)  \\
-**Haoyu Liu**, Ningyi Liao, Siqiang Luo. *ICDE 2025.* 
-
-- [**BIRD: Efficient Approximation of Bidirectional Hidden Personalized PageRank**](/publication/2024-bird-hidden-ppr) \\
-**Haoyu Liu**, Siqiang Luo. *PVLDB 2024.* 
-
-- [**Topology-Monitorable Contrastive Learning on Dynamic Graphs**](/publication/2024-topology-monitorable-contrastive-learning) \\
-Zulun Zhu, Kai Wang, **Haoyu Liu**, Jintang Li, Siqiang Luo. *KDD 2024.* 
+  <section class="home-contact" aria-labelledby="contact-title">
+    <div>
+      <p class="home-kicker">Open to conversations</p>
+      <h2 id="contact-title">Have a graph problem worth scaling?</h2>
+      <p>I am happy to discuss algorithms, efficiency, and collaboration at the intersection of graph data and machine learning.</p>
+    </div>
+    <div class="home-contact__links">
+      <a href="mailto:haoyu.liu@ntu.edu.sg"><i class="fa fa-envelope" aria-hidden="true"></i> haoyu.liu@ntu.edu.sg</a>
+      <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=DI_fmh0AAAAJ&amp;view_op=list_works&amp;sortby=pubdate"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
+      <a href="https://github.com/hyLiu-777"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/haoyu-liu-9070a932b/"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+      <a href="https://orcid.org/0000-0002-0839-5460"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a>
+    </div>
+  </section>
+</div>

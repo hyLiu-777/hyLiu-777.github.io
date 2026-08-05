@@ -43,7 +43,7 @@
       "endDate": "Present",
       "summary": "Research in scalable graph algorithms and graph neural networks.",
       "highlights": [
-        "Focus on Personalized PageRank (PPR) and efficient graph learning systems"
+        "Focus on Personalized PageRank (PPR) and efficient graph learning algorithms"
       ]
     },
     {
@@ -117,7 +117,7 @@
       "publisher": "SIGMOD",
       "releaseDate": "2026",
       "website": "https://arxiv.org/pdf/2406.09675",
-      "summary": "Benchmark study on spectral GNNs and system tradeoffs."
+      "summary": "Benchmark study on spectral GNNs and computational tradeoffs."
     },
     {
       "name": "SIGMA: An Efficient Heterophilous Graph Neural Network with Fast Global Aggregation",
