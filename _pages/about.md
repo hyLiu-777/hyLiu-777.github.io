@@ -9,7 +9,7 @@ redirect_from:
 
 <style>
   .page__content {
-    font-size: 0.55rem;
+    font-size: 0.85rem;
   }
 
   @media (min-width: 80em) {
@@ -18,28 +18,34 @@ redirect_from:
     }
 
     #main .page {
-      width: 76%;
-      float: middle;
+      width: 72%;
+      float: right;
       margin-right: 0;
       padding-right: 0;
     }
 
     #main .sidebar {
-      width: 30%;
+      width: 24%;
     }
   }
 </style>
 
-I'm Haoyu Liu, currently a Fourth-year Ph.D candidate at the [College of Computing and Data Science (CCDS)](https://www.ntu.edu.sg/computing), [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore, supervised by [Prof. Siqiang Luo](https://siqiangluo.com/). My research interest lies in *Scalable Graph Algorithms* and *Graph Neural Networks*, particularly *Personalized PageRank (PPR)* related topics.
+I'm Haoyu Liu, a Ph.D. candidate in Computer Science at the [College of Computing and Data Science (CCDS)](https://www.ntu.edu.sg/computing), [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore, advised by [Prof. Siqiang Luo](https://siqiangluo.com/). My research focuses on *scalable graph algorithms* and *graph learning*, spanning Personalized PageRank (PPR) computation, efficient and lightweight Graph Neural Networks, and Graph-LLM integration.
 
-Before joining NTU, I received my B.Sc. degree in Statistics from [Renmin University of China](http://stat.ruc.edu.cn/), where I conducted research with [Prof. Hanfang Yang](https://scholar.google.com/citations?hl=en&user=EsSjDdAAAAAJ&view_op=list_works&sortby=pubdate) and [Prof. Yanbing Bai](http://stat.ruc.edu.cn/EN/FacultyStaff/Faculty/Department_of_Data_Science_and_Big_Data_Analytics/1b1c8e8e37ab4716bc3b8c28fe81fb99.htm) at School of Statistics. I also interned at AI lab of [Samsung Research China - Beijing](https://research.samsung.com/src-b) under [Dr. Yang Liu](https://scholar.google.com/citations?hl=en&user=EpG5ODwAAAAJ&view_op=list_works&sortby=pubdate).
+My work combines theoretical guarantees with scalable learning systems, with (co-)first-author publications at PODS, PVLDB, KDD, and ICDE. I received the Best Newcomer Research Paper Award at SIGMOD/PODS 2026, and our spectral GNN benchmark received the PREMIA Best Student Paper Award 2025 in Singapore.
 
+Before joining NTU, I received my B.Sc. degree in Statistics and Big Data from [Renmin University of China](http://stat.ruc.edu.cn/). I also interned at the AI Lab of [Samsung Research China - Beijing](https://research.samsung.com/src-b) under [Dr. Yang Liu](https://scholar.google.com/citations?hl=en&user=EpG5ODwAAAAJ&view_op=list_works&sortby=pubdate), where I worked on embodied AI agents for instruction-following household tasks and placed 3rd in the CVPR 2022 ALFRED Challenge.
 
 Recent Publications
 ===
 
+- [**Scalable Graph Kernel Query with Error Guarantees**](/publication/2026-scalable-graph-kernel-query) \\
+Changan Liu\*, **Haoyu Liu\***, Siqiang Luo, Laks V. S. Lakshmanan. *PVLDB 2026.* \\
+**(\*: Equal Contribution)** 
+
 - [**Near-Optimality for Single-Source Personalized PageRank**](/publication/2025-near-optimality-single-source-ppr) \\
 Xinpeng Jiang†, **Haoyu Liu†**, Siqiang Luo†, Xiaokui Xiao†. *PODS 2026.*\\
+**Best Newcomer Research Paper Award, SIGMOD/PODS 2026.** \\
 **(†: Alphabetical Order)** 
 
 - [**When Deepfake Detection Meets Graph Neural Network: A Unified and Lightweight Learning Framework**](/publication/2025-deepfake-detection-gnn) \\
@@ -47,7 +53,8 @@ Xinpeng Jiang†, **Haoyu Liu†**, Siqiang Luo†, Xiaokui Xiao†. *PODS 2026.
 **(\*: Equal Contribution)** 
 
 - [**A Comprehensive Benchmark on Spectral GNNs: The Impact on Efficiency, Memory, and Effectiveness**](/publication/2026-spectral-gnn-benchmark) \\
-Ningyi Liao, **Haoyu Liu**, Zulun Zhu, Siqiang Luo, Laks V. S. Lakshmanan. *SIGMOD 2026.* 
+Ningyi Liao, **Haoyu Liu**, Zulun Zhu, Siqiang Luo, Laks V. S. Lakshmanan. *SIGMOD 2026.* \\
+**PREMIA Best Student Paper Award 2025 in Singapore.**
 
 - [**SIGMA: An Efficient Heterophilous Graph Neural Network with Fast Global Aggregation**](/publication/2025-sigma-heterophilous-gnn)  \\
 **Haoyu Liu**, Ningyi Liao, Siqiang Luo. *ICDE 2025.* 
