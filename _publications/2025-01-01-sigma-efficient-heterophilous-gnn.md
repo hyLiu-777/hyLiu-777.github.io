@@ -9,5 +9,7 @@ first_author: true
 authors: '**Haoyu Liu**, Ningyi Liao, Siqiang Luo'
 teaser: '/images/publications/2025-sigma.jpg'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/11113040'
+arxivurl: 'https://arxiv.org/abs/2305.09958'
+slidesurl: 'https://nyliao.github.io/publication/sigma/Slides_SIGMA.pdf'
 citation: 'Haoyu Liu, Ningyi Liao, Siqiang Luo. SIGMA: An Efficient Heterophilous Graph Neural Network with Fast Global Aggregation. ICDE, 2025.'
 ---

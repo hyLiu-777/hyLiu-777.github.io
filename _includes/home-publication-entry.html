@@ -13,7 +13,17 @@
     <p class="home-publication__authors" itemprop="author">{{ home_authors_line }}</p>
     <div class="home-publication__links">
       <a href="{{ base_path }}{{ post.url }}">Details <span aria-hidden="true">↗</span></a>
-      {% if post.paperurl and post.paperurl != "" %}<a href="{{ post.paperurl }}">Paper <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if post.arxivurl %}
+        <a href="{{ post.arxivurl }}">arXiv <span aria-hidden="true">↗</span></a>
+      {% elsif post.paperurl and post.paperurl contains "arxiv.org" %}
+        <a href="{{ post.paperurl }}">arXiv <span aria-hidden="true">↗</span></a>
+      {% elsif post.paperurl and post.paperurl != "" %}
+        <a href="{{ post.paperurl }}">Paper <span aria-hidden="true">↗</span></a>
+      {% endif %}
+      {% if post.codeurl %}<a href="{{ post.codeurl }}">Code <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if post.projecturl %}<a href="{{ post.projecturl }}">Project <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if post.artifactsurl %}<a href="{{ post.artifactsurl }}">Artifacts <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if post.doiurl %}<a href="{{ post.doiurl }}">DOI <span aria-hidden="true">↗</span></a>{% endif %}
     </div>
   </div>
 </article>

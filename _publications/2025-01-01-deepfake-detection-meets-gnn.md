@@ -10,5 +10,7 @@ authors: '**Haoyu Liu**\*, Chaoyu Gong\*, Mengke He, Jiate Li, Kai Han, Siqiang 
 teaser: '/images/publications/2025-deepfake.jpg'
 author_note: ''
 paperurl: 'https://arxiv.org/pdf/2508.05526'
+codeurl: 'https://github.com/hyLiu-777/SSTGNN'
+artifactsurl: 'https://doi.org/10.5281/zenodo.18042443'
 citation: 'Haoyu Liu, Chaoyu Gong, Mengke He, Jiate Li, Kai Han, Siqiang Luo. When Deepfake Detection Meets Graph Neural Network: A Unified and Lightweight Learning Framework. KDD, 2026.'
 ---

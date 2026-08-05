@@ -2,12 +2,27 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
+
+<style>
+  @media (min-width: 64em) {
+    #main {
+      max-width: 1160px;
+    }
+
+    #main .archive {
+      width: 100%;
+      float: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+</style>
 
 <div class="cv-entry">
   <p>
@@ -15,7 +30,7 @@ redirect_from:
   </p>
 
   <p class="cv-entry__actions">
-    <a href="{{ base_path }}/" class="btn btn--primary">View Online CV</a>
-    <a href="{{ base_path }}/files/cv.pdf" class="btn btn--inverse">Download CV as PDF</a>
+    <a href="{{ base_path }}/" class="publication-link publication-link--primary">View Online CV <span aria-hidden="true">↗</span></a>
+    <a href="{{ base_path }}/files/cv.pdf" class="publication-link">Download CV as PDF <span aria-hidden="true">↗</span></a>
   </p>
 </div>

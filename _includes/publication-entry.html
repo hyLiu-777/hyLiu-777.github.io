@@ -47,7 +47,12 @@
 
     <div class="publication-entry__links" aria-label="Links for {{ post.title }}">
       <a class="publication-link publication-link--primary" href="{{ base_path }}{{ post.url }}"><i class="fa fa-file-text-o" aria-hidden="true"></i> Details</a>
-      {% if post.paperurl contains "arxiv.org/pdf/" %}
+      {% if post.arxivurl %}
+        <a class="publication-link" href="{{ post.arxivurl }}"><i class="ai ai-arxiv" aria-hidden="true"></i> arXiv</a>
+        {% if post.paperurl %}
+          <a class="publication-link" href="{{ post.paperurl }}"><i class="fa fa-external-link" aria-hidden="true"></i> Paper</a>
+        {% endif %}
+      {% elsif post.paperurl contains "arxiv.org/pdf/" %}
         <a class="publication-link" href="{{ post.paperurl }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> PDF</a>
         {% assign arxiv_url = post.paperurl | replace: "/pdf/", "/abs/" %}
         <a class="publication-link" href="{{ arxiv_url }}"><i class="ai ai-arxiv" aria-hidden="true"></i> arXiv</a>
@@ -61,6 +66,18 @@
       {% endif %}
       {% if post.bibtexurl %}
         <a class="publication-link" href="{{ post.bibtexurl }}"><i class="fa fa-file-code-o" aria-hidden="true"></i> BibTeX</a>
+      {% endif %}
+      {% if post.codeurl %}
+        <a class="publication-link" href="{{ post.codeurl }}"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
+      {% endif %}
+      {% if post.projecturl %}
+        <a class="publication-link" href="{{ post.projecturl }}"><i class="fa fa-globe" aria-hidden="true"></i> Project</a>
+      {% endif %}
+      {% if post.artifactsurl %}
+        <a class="publication-link" href="{{ post.artifactsurl }}"><i class="fa fa-archive" aria-hidden="true"></i> Artifacts</a>
+      {% endif %}
+      {% if post.doiurl %}
+        <a class="publication-link" href="{{ post.doiurl }}"><i class="fa fa-link" aria-hidden="true"></i> DOI</a>
       {% endif %}
     </div>
   </div>

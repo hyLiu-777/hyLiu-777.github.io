@@ -21,36 +21,30 @@ redirect_from:
 
   @media (min-width: 80em) {
     #main {
-      max-width: 1380px;
+      max-width: 1160px;
     }
   }
 </style>
 
 <div class="home-page">
   <section class="home-hero" aria-labelledby="home-title">
-    <div class="home-hero__profile">
-      <img src="{{ base_path }}/images/avatar.png" alt="Portrait of Haoyu Liu" fetchpriority="high">
-    </div>
     <div class="home-hero__main">
+      <div class="home-hero__profile">
+        <img src="{{ base_path }}/images/avatar.png" alt="Portrait of Haoyu Liu" fetchpriority="high">
+      </div>
       <p class="home-kicker">Computer Science · Algorithms &amp; Efficiency</p>
       <h1 id="home-title">Haoyu Liu</h1>
       <p class="home-hero__lead">Ph.D. candidate in Computer Science at <a href="https://www.ntu.edu.sg/computing">NTU CCDS</a>, working with <a href="https://siqiangluo.com/">Prof. Siqiang Luo</a> in Singapore.</p>
       <p class="home-hero__copy">I design scalable graph algorithms and efficient learning methods for large, dynamic graphs. My research spans Personalized PageRank, graph kernels, approximation algorithms, and data structures, alongside lightweight and heterophilous Graph Neural Networks and spectral benchmarking. More recently, I have worked on Graph-LLM integration and temporal retrieval, with a consistent focus on reducing computation and memory while preserving theoretical guarantees and practical effectiveness.</p>
-      <div class="home-actions">
-        <a class="home-action home-action--primary" href="{{ base_path }}/publications/">Browse publications <span aria-hidden="true">↗</span></a>
-        <a class="home-action" href="{{ base_path }}/cv/">View CV <span aria-hidden="true">↗</span></a>
-        <a class="home-action" href="mailto:haoyu.liu@ntu.edu.sg">Email me <span aria-hidden="true">↗</span></a>
-      </div>
+      <nav class="home-hero__links" aria-label="Professional links">
+        <a href="mailto:haoyu.liu@ntu.edu.sg"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a>
+        <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=DI_fmh0AAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noopener"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
+        <a href="https://www.linkedin.com/in/haoyu-liu-9070a932b/" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+        <a href="https://github.com/hyLiu-777" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+        <a href="https://orcid.org/0000-0002-0839-5460" target="_blank" rel="noopener"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a>
+      </nav>
     </div>
 
-    <aside class="home-hero__aside" aria-label="Current position">
-      <p class="home-hero__aside-label">Now</p>
-      <p class="home-hero__aside-title">Ph.D. candidate</p>
-      <p class="home-hero__aside-copy">Computer Science<br>NTU CCDS · Singapore</p>
-      <div class="home-hero__aside-rule"></div>
-      <p class="home-hero__aside-label">Research lens</p>
-      <p class="home-hero__aside-stat">Theory → efficiency → impact</p>
-    </aside>
   </section>
 
   <section class="home-section home-context" aria-labelledby="context-title">
