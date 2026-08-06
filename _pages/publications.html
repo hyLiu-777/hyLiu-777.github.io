@@ -41,17 +41,12 @@ author_profile: false
   <span><strong>*</strong> equal contribution</span>
 </p>
 
-{% assign publication_year_groups = site.publications | group_by_exp: "publication_year", "item.date | date: '%Y'" | sort: "name" | reverse %}
+{% assign publication_order = "/publication/2026-scalable-graph-kernel-query|/publication/2025-near-optimality-single-source-ppr|/publication/2025-deepfake-detection-gnn|/publication/2026-spectral-gnn-benchmark|/publication/2025-sigma-heterophilous-gnn|/publication/2025-temporal-rag-graph-summarization|/publication/2024-bird-hidden-ppr|/publication/2024-topology-monitorable-contrastive-learning|/publication/2022-pre-guided-attention|/publication/2022-lebp-two-stream|/publication/2020-nightlight-gdp-inference|/publication/2020-pyramid-pooling-semi-siamese" | split: "|" %}
 <div class="publication-list publication-list--flat">
-{% for year_group in publication_year_groups %}
-  {% assign year_publications = year_group.items | sort: "date" | reverse %}
-  {% assign year_lead_publications = year_publications | where: "first_author", true %}
-  {% assign year_coauthor_publications = year_publications | where: "first_author", false %}
-  {% for post in year_lead_publications %}
+{% for publication_permalink in publication_order %}
+  {% assign post = site.publications | where: "permalink", publication_permalink | first %}
+  {% if post %}
     {% include publication-entry.html %}
-  {% endfor %}
-  {% for post in year_coauthor_publications %}
-    {% include publication-entry.html %}
-  {% endfor %}
+  {% endif %}
 {% endfor %}
 </div>
