@@ -8,22 +8,22 @@
     {% endif %}
   </a>
   <div class="home-publication__body">
-    <p class="home-publication__meta"><span>{{ post.venue }}</span>{% unless post.venue contains "19" or post.venue contains "20" %}<span>{{ home_publication_year }}</span>{% endunless %}{% if post.award %}<span class="home-publication__award-inline"><i class="fa fa-trophy" aria-hidden="true"></i> {{ post.award }}</span>{% endif %}</p>
+    <p class="home-publication__meta"><span>{{ post.venue }}</span>{% unless post.venue contains "19" or post.venue contains "20" %}<span>{{ home_publication_year }}</span>{% endunless %}{% if post.award %}<span class="award-highlight award-highlight--inline"><i class="fa fa-trophy" aria-hidden="true"></i>{{ post.award }}</span>{% endif %}</p>
     <h3 itemprop="name"><a href="{{ base_path }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h3>
     <p class="home-publication__authors" itemprop="author">{{ home_authors_line }}</p>
-    <div class="home-publication__links">
-      <a href="{{ base_path }}{{ post.url }}">Details <span aria-hidden="true">↗</span></a>
+    <div class="home-publication__links" aria-label="Links for {{ post.title }}">
+      <a class="publication-link publication-link--primary" href="{{ base_path }}{{ post.url }}">Details</a>
       {% if post.arxivurl %}
-        <a href="{{ post.arxivurl }}">arXiv <span aria-hidden="true">↗</span></a>
+        <a class="publication-link" href="{{ post.arxivurl }}">arXiv</a>
       {% elsif post.paperurl and post.paperurl contains "arxiv.org" %}
-        <a href="{{ post.paperurl }}">arXiv <span aria-hidden="true">↗</span></a>
+        <a class="publication-link" href="{{ post.paperurl }}">arXiv</a>
       {% elsif post.paperurl and post.paperurl != "" %}
-        <a href="{{ post.paperurl }}">Paper <span aria-hidden="true">↗</span></a>
+        <a class="publication-link" href="{{ post.paperurl }}">Paper</a>
       {% endif %}
-      {% if post.codeurl %}<a href="{{ post.codeurl }}">Code <span aria-hidden="true">↗</span></a>{% endif %}
-      {% if post.projecturl %}<a href="{{ post.projecturl }}">Project <span aria-hidden="true">↗</span></a>{% endif %}
-      {% if post.artifactsurl %}<a href="{{ post.artifactsurl }}">Artifacts <span aria-hidden="true">↗</span></a>{% endif %}
-      {% if post.doiurl %}<a href="{{ post.doiurl }}">DOI <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if post.codeurl %}<a class="publication-link" href="{{ post.codeurl }}">Code</a>{% endif %}
+      {% if post.projecturl %}<a class="publication-link" href="{{ post.projecturl }}">Project</a>{% endif %}
+      {% if post.artifactsurl %}<a class="publication-link" href="{{ post.artifactsurl }}">Artifacts</a>{% endif %}
+      {% if post.doiurl %}<a class="publication-link" href="{{ post.doiurl }}">DOI</a>{% endif %}
     </div>
   </div>
 </article>

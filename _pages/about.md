@@ -97,7 +97,7 @@ redirect_from:
 
     <p class="home-publications__legend"><strong>†</strong> alphabetical author order <span>·</span> <strong>*</strong> equal contribution</p>
 
-    {% assign homepage_featured_publication_urls = "/publication/2026-scalable-graph-kernel-query|/publication/2025-near-optimality-single-source-ppr|/publication/2025-deepfake-detection-gnn|/publication/2026-spectral-gnn-benchmark|/publication/2025-sigma-heterophilous-gnn|/publication/2025-temporal-rag-graph-summarization|/publication/2024-bird-hidden-ppr|/publication/2024-topology-monitorable-contrastive-learning" | split: "|" %}
+    {% assign homepage_featured_publication_urls = "/publication/2026-scalable-graph-kernel-query|/publication/2025-near-optimality-single-source-ppr|/publication/2025-deepfake-detection-gnn|/publication/2026-spectral-gnn-benchmark|/publication/2025-sigma-heterophilous-gnn|/publication/2024-bird-hidden-ppr" | split: "|" %}
     <div class="home-publication-list">
       {% for homepage_publication_url in homepage_featured_publication_urls %}
         {% assign post = site.publications | where: "permalink", homepage_publication_url | first %}
