@@ -16,7 +16,7 @@ main:
     url: /publications/
 
   - title: "SSTGNN Demo"
-    url: /sstgnn-demo/
+    url: https://hyliu-777.github.io/sstgnn-demo/
 
   - title: "CV"
     url: /cv/
