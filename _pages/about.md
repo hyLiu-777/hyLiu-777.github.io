@@ -19,6 +19,22 @@ redirect_from:
     padding: 0;
   }
 
+  .home-project-update {
+    max-width: 46rem;
+    margin: 1.1rem auto;
+    padding: 0.8rem 1rem;
+    border-left: 3px solid var(--home-teal);
+    background: #f5fafb;
+    text-align: left;
+  }
+
+  .page__content .home-page .home-project-update p {
+    margin: 0;
+    color: var(--home-muted);
+    font-size: 0.82rem;
+    line-height: 1.65;
+  }
+
   @media (min-width: 80em) {
     #main {
       max-width: 1160px;
@@ -36,6 +52,9 @@ redirect_from:
       <h1 id="home-title">Haoyu Liu</h1>
       <p class="home-hero__lead">Ph.D. candidate in Computer Science at <a href="https://www.ntu.edu.sg/computing">NTU CCDS</a>, working with <a href="https://siqiangluo.com/">Prof. Siqiang Luo</a> in Singapore.</p>
       <p class="home-hero__copy">I design scalable graph algorithms and efficient learning methods for large, dynamic graphs. My research spans Personalized PageRank, graph kernels, approximation algorithms, and data structures, alongside lightweight and heterophilous Graph Neural Networks and spectral benchmarking. More recently, I have worked on Graph-LLM integration and temporal retrieval, with a consistent focus on reducing computation and memory while preserving theoretical guarantees and practical effectiveness.</p>
+      <aside class="home-project-update" aria-label="Project update">
+        <p><strong>Project update.</strong> I developed <a href="{{ '/sstgnn-demo/' | relative_url }}"><strong>SSTGNN Evidence Studio</strong></a>, an interactive demo for explainable deepfake detection, featuring video assessments, visual explanations, and evidence-based diagnostic reports.</p>
+      </aside>
       <nav class="home-hero__links" aria-label="Professional links">
         <a href="mailto:haoyu.liu@ntu.edu.sg"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a>
         <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=DI_fmh0AAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noopener"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
