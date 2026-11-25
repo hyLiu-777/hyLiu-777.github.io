@@ -15,5 +15,8 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "SSTGNN Demo"
+    url: /sstgnn-demo/
+
   - title: "CV"
     url: /cv/

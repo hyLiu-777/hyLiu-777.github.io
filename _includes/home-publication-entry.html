@@ -21,6 +21,7 @@
         <a class="publication-link" href="{{ post.paperurl }}">Paper</a>
       {% endif %}
       {% if post.codeurl %}<a class="publication-link" href="{{ post.codeurl }}">Code</a>{% endif %}
+      {% if post.demourl %}<a class="publication-link" href="{{ post.demourl | relative_url }}">Live Demo</a>{% endif %}
       {% if post.projecturl %}<a class="publication-link" href="{{ post.projecturl }}">Project</a>{% endif %}
       {% if post.artifactsurl %}<a class="publication-link" href="{{ post.artifactsurl }}">Artifacts</a>{% endif %}
       {% if post.doiurl %}<a class="publication-link" href="{{ post.doiurl }}">DOI</a>{% endif %}

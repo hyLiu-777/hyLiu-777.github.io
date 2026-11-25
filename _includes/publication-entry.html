@@ -60,6 +60,9 @@
       {% if post.bibtexurl %}
         <a class="publication-link" href="{{ post.bibtexurl }}">BibTeX</a>
       {% endif %}
+      {% if post.demourl %}
+        <a class="publication-link" href="{{ post.demourl | relative_url }}">Live Demo</a>
+      {% endif %}
       {% if post.codeurl %}
         <a class="publication-link" href="{{ post.codeurl }}">Code</a>
       {% endif %}
