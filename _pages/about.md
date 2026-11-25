@@ -85,10 +85,30 @@ redirect_from:
     </div>
   </section>
 
+  <section class="home-section home-news" aria-labelledby="recent-news-title">
+    <div class="home-section__heading">
+      <p class="home-kicker">03 / Updates</p>
+      <h2 id="recent-news-title">Recent news</h2>
+    </div>
+    <ul class="home-news__list">
+      {% for news in site.data.news.recent %}
+        {% include home-news-entry.html %}
+      {% endfor %}
+    </ul>
+    <details class="home-news__archive">
+      <summary>Earlier updates ({{ site.data.news.earlier | size }})</summary>
+      <ul class="home-news__list">
+        {% for news in site.data.news.earlier %}
+          {% include home-news-entry.html %}
+        {% endfor %}
+      </ul>
+    </details>
+  </section>
+
   <section class="home-section home-publications" aria-labelledby="selected-publications-title">
     <div class="home-section__heading home-section__heading--row home-publications__heading">
       <div class="home-publications__heading-copy">
-        <p class="home-kicker">03 / Publications</p>
+        <p class="home-kicker">04 / Publications</p>
         <h2 id="selected-publications-title">Recent work</h2>
         <p>Selected papers from my publication record.</p>
       </div>

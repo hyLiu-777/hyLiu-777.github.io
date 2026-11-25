@@ -578,6 +578,60 @@ html, body, .page__content, .sidebar, .masthead {
   margin: 0 0 2.55rem;
 }
 
+.home-news .home-section__heading {
+  max-width: none;
+  margin-bottom: 0;
+  padding: 0.82rem 0 0.72rem;
+  border-top: 2px solid var(--home-teal-dark);
+  border-bottom: 1px solid var(--home-line);
+}
+
+.page__content .home-page .home-news__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home-news__item {
+  display: grid;
+  grid-template-columns: 3.2rem minmax(0, 1fr);
+  gap: 0.8rem;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid #edf2f3;
+}
+
+.home-news__date {
+  padding-top: 0.13rem;
+  color: var(--home-teal);
+  font-size: 0.65rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.page__content .home-page .home-news__copy p {
+  margin: 0;
+  color: var(--home-muted);
+  font-size: 0.78rem;
+  line-height: 1.55;
+}
+
+.home-news__copy strong {
+  color: var(--home-ink);
+}
+
+.home-news__archive {
+  margin-top: 0.65rem;
+}
+
+.home-news__archive summary {
+  width: fit-content;
+  padding: 0.3rem 0;
+  color: var(--home-teal);
+  font-size: 0.72rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 .home-section__heading {
   max-width: 45rem;
   margin-bottom: 1rem;
@@ -770,13 +824,6 @@ html, body, .page__content, .sidebar, .masthead {
 
 .home-publication__authors p {
   margin: 0;
-}
-
-.page__content .home-page .home-publication__note {
-  margin: 0.35rem 0 0.45rem;
-  color: var(--home-muted);
-  font-size: 0.75rem;
-  line-height: 1.5;
 }
 
 .home-publication__links {

@@ -12,7 +12,6 @@ author_note: ''
 paperurl: 'https://arxiv.org/pdf/2508.05526'
 codeurl: 'https://github.com/hyLiu-777/SSTGNN'
 demourl: '/sstgnn-demo/'
-homepage_note: 'I developed [SSTGNN Evidence Studio](/sstgnn-demo/), an interactive demo for explainable deepfake detection featuring video assessments, visual explanations, and evidence-based diagnostic reports.'
 artifactsurl: 'https://doi.org/10.5281/zenodo.18042443'
 citation: 'Haoyu Liu, Chaoyu Gong, Mengke He, Jiate Li, Kai Han, Siqiang Luo. When Deepfake Detection Meets Graph Neural Network: A Unified and Lightweight Learning Framework. KDD, 2026.'
 ---

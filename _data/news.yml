@@ -1,0 +1,62 @@
+# Newest updates first. Use years when the announcement month is not recorded.
+recent:
+  - year: 2026
+    text: >-
+      I developed [SSTGNN Evidence Studio](/sstgnn-demo/), an interactive demo for explainable deepfake detection with video assessments, visual explanations, and evidence-based diagnostic reports.
+
+  - year: 2026
+    text: >-
+      Our [Personalized PageRank paper](/publication/2025-near-optimality-single-source-ppr) received the **Best Newcomer Research Paper Award at SIGMOD/PODS 2026**.
+
+  - year: 2026
+    text: >-
+      Our paper, [Near-Optimality for Single-Source Personalized PageRank](/publication/2025-near-optimality-single-source-ppr), has been accepted at **PODS 2026**.
+
+  - year: 2026
+    text: >-
+      Our paper on [deepfake detection with graph neural networks](/publication/2025-deepfake-detection-gnn) has been accepted at **KDD 2026**.
+
+  - year: 2026
+    text: >-
+      Our paper, [Scalable Graph Kernel Query with Error Guarantees](/publication/2026-scalable-graph-kernel-query), has been accepted by **PVLDB**.
+
+  - year: 2026
+    text: >-
+      Our [comprehensive benchmark on spectral GNNs](/publication/2026-spectral-gnn-benchmark) has been accepted at **SIGMOD 2026**.
+
+earlier:
+  - year: 2025
+    text: >-
+      Our [spectral GNN benchmark](/publication/2026-spectral-gnn-benchmark) received the **PREMIA Best Student Paper Award 2025 in Singapore**.
+
+  - year: 2025
+    text: >-
+      Our paper, [SIGMA: An Efficient Heterophilous Graph Neural Network with Fast Global Aggregation](/publication/2025-sigma-heterophilous-gnn), was accepted at **ICDE 2025**.
+
+  - year: 2025
+    text: >-
+      Our preprint, [Right Answer at the Right Time: Temporal Retrieval-Augmented Generation via Graph Summarization](/publication/2025-temporal-rag-graph-summarization), is available on **arXiv**.
+
+  - year: 2024
+    text: >-
+      Our paper, [Topology-Monitorable Contrastive Learning on Dynamic Graphs](/publication/2024-topology-monitorable-contrastive-learning), was accepted at **KDD 2024**.
+
+  - year: 2024
+    text: >-
+      Our paper, [BIRD: Efficient Approximation of Bidirectional Hidden Personalized PageRank](/publication/2024-bird-hidden-ppr), was accepted by **PVLDB**.
+
+  - year: 2022
+    text: >-
+      Our [LEBP embodied vision-and-language agent](/publication/2022-lebp-two-stream) placed **3rd in the CVPR 2022 ALFRED Challenge**.
+
+  - year: 2022
+    text: >-
+      Our paper on [coarse-grained pre-guided attention for reinforcement learning agents](/publication/2022-pre-guided-attention) was accepted at **IJCNN 2022**.
+
+  - year: 2021
+    text: >-
+      Our study, [Nightlight as a Proxy of Economic Indicators](/publication/2020-nightlight-gdp-inference), was published in **Remote Sensing**.
+
+  - year: 2020
+    text: >-
+      Our [semi-Siamese benchmark for building damage assessment from satellite imagery](/publication/2020-pyramid-pooling-semi-siamese) was published in **Remote Sensing**.
