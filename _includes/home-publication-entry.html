@@ -12,7 +12,7 @@
     <h3 itemprop="name"><a href="{{ base_path }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h3>
     <p class="home-publication__authors" itemprop="author">{{ home_authors_line }}</p>
     {% if post.homepage_note %}
-      <p class="home-publication__note">{{ post.homepage_note | escape }}</p>
+      <p class="home-publication__note">{{ post.homepage_note | markdownify | remove: "<p>" | remove: "</p>" }}</p>
     {% endif %}
     <div class="home-publication__links" aria-label="Links for {{ post.title }}">
       <a class="publication-link publication-link--primary" href="{{ base_path }}{{ post.url }}">Details</a>
