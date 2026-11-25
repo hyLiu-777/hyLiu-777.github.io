@@ -772,6 +772,13 @@ html, body, .page__content, .sidebar, .masthead {
   margin: 0;
 }
 
+.page__content .home-page .home-publication__note {
+  margin: 0.35rem 0 0.45rem;
+  color: var(--home-muted);
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
 .home-publication__links {
   display: flex;
   flex-wrap: wrap;

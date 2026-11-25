@@ -11,6 +11,9 @@
     <p class="home-publication__meta"><span>{{ post.venue }}</span>{% unless post.venue contains "19" or post.venue contains "20" %}<span>{{ home_publication_year }}</span>{% endunless %}{% if post.award %}<span class="award-highlight award-highlight--inline"><i class="fa fa-trophy" aria-hidden="true"></i>{{ post.award }}</span>{% endif %}</p>
     <h3 itemprop="name"><a href="{{ base_path }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h3>
     <p class="home-publication__authors" itemprop="author">{{ home_authors_line }}</p>
+    {% if post.homepage_note %}
+      <p class="home-publication__note">{{ post.homepage_note | escape }}</p>
+    {% endif %}
     <div class="home-publication__links" aria-label="Links for {{ post.title }}">
       <a class="publication-link publication-link--primary" href="{{ base_path }}{{ post.url }}">Details</a>
       {% if post.arxivurl %}
